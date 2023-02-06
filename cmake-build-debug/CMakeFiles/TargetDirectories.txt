@@ -1,0 +1,3 @@
+C:/Users/alireza/CLionProjects/SpaceInvaders/cmake-build-debug/CMakeFiles/SpaceInvaders.elf.dir
+C:/Users/alireza/CLionProjects/SpaceInvaders/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alireza/CLionProjects/SpaceInvaders/cmake-build-debug/CMakeFiles/rebuild_cache.dir
