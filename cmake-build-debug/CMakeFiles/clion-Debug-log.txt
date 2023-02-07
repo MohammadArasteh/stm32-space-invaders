@@ -1,5 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders -B C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug
--- Minimal optimization, debug info included
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug
