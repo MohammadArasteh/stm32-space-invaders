@@ -34,24 +34,24 @@
 // END: GPIO-D
 
 // characters
-#define USER 3
-#define USER_BULLET 1
-#define ENEMY -3
-#define DEAD_ENEMY -2
-#define ENEMY_BULLET -1
+#define CHAR_USER 3
+#define CHAR_USER_BULLET 1
+#define CHAR_ENEMY (-3)
+#define CHAR_DEAD_ENEMY (-2)
+#define CHAR_ENEMY_BULLET (-1)
 
 // difficulty
-#define EASY 1
-#define NORMAL 2
-#define HARD 3
+#define DIFFICULTY_EASY 1
+#define DIFFICULTY_NORMAL 2
+#define DIFFICULTY_HARD 3
 
 // board
-#define EMPTY_CELL 0
-#define STATUS_ROW 21
-#define USER_HP_COL 0
-#define ENEMY_COUNT_COL 1
-#define DIFFICULTY_COL 2
-#define FINISHED_COL 3
+#define BOARD_EMPTY_CELL 0
+#define BOARD_STATUS_ROW 21
+#define BOARD_USER_HP_COL 0
+#define BOARD_ENEMY_COUNT_COL 1
+#define BOARD_DIFFICULTY_COL 2
+#define BOARD_FINISHED_COL 3
 /* Status Row: [UserHp, EnemyCount, Difficulty, isFinished] */
 
 

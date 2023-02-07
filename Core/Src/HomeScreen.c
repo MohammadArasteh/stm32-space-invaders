@@ -27,7 +27,7 @@ void updateBoard() {
   setCursor(0, 3);
   print("        ");
   if (showRow1) {
-    write(USER);
+    write(CHAR_USER);
   } else {
     print(" ");
   }
@@ -35,7 +35,7 @@ void updateBoard() {
   print(" ");
 
   if (!showRow1) {
-    write(ENEMY);
+    write(CHAR_ENEMY);
   } else {
     print(" ");
   }
