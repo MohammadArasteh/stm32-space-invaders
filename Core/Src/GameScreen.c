@@ -4,6 +4,7 @@
 
 #include "main.h"
 #include <stdbool.h>
+#include <string.h>
 #include "HomeScreen.h"
 #include "Utils.h"
 #include "LiquidCrystal.h"
@@ -12,12 +13,18 @@
 
 extern int board[21][4];
 
-void updateBoard() {
+void updateGameScreen() {
     setCursor(0, 0);
     for(int col = 0; col < 4; col++)
         for(int row = 0; row < 20; row++) {
-            char* content = Utils_GetCharacter(board[row][col]);
-            print(content);
+            if(board[row][col] == CHAR_USER)
+                write(2);
+            else if(board[row][col] == CHAR_ENEMY)
+                write(0);
+            else {
+                char* content = Utils_GetCharacter(board[row][col]);
+                print(content);
+            }
         }
 }
 
@@ -35,14 +42,10 @@ void update_bullets_position() {
 }
 
 void GameScreen_OnEveryHalfSecond() {
-    updateBoard();
+    update_bullets_position();
+    updateGameScreen();
 }
 void GameScreen_OnEverySecond() {
-    update_bullets_position();
-}
-
-void GameScreen_OnKeyPress(char* key) {
-
 }
 
 int getPlayerColumn() {
@@ -53,15 +56,24 @@ int getPlayerColumn() {
 void left() {
     int currentCol = getPlayerColumn();
     board[0][currentCol] = BOARD_EMPTY_CELL;
-    if(currentCol == 0) board[0][3] = CHAR_USER;
-    else board[0][currentCol - 1] = CHAR_USER;
+    if(currentCol == 3) board[0][0] = CHAR_USER;
+    else board[0][currentCol + 1] = CHAR_USER;
 }
 void right() {
     int currentCol = getPlayerColumn();
     board[0][currentCol] = BOARD_EMPTY_CELL;
-    if(currentCol == 3) board[0][0] = CHAR_USER;
-    else board[0][currentCol + 1] = CHAR_USER;
+    if(currentCol == 0) board[0][3] = CHAR_USER;
+    else board[0][currentCol - 1] = CHAR_USER;
 }
-void shoot() {}
+void shoot() {
+    int currentCol = getPlayerColumn();
+    board[1][currentCol] = CHAR_USER_BULLET;
+}
 void shift_down() {}
 void generate_enemy() {}
+
+void GameScreen_OnKeyPress(char* key) {
+    if(strcmp(key, "1") == 0) left();
+    else if(strcmp(key, "2") == 0) shoot();
+    else if(strcmp(key, "3") == 0) right();
+}

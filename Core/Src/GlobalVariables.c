@@ -4,4 +4,4 @@
 
 #include "types.h"
 
-ScreenType currentScreen = SCREEN_HOME;
+ScreenType currentScreen = SCREEN_GAME;

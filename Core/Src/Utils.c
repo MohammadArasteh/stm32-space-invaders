@@ -17,10 +17,10 @@ char* Utils_GetCharacter(int value) {
       return "O";
     case CHAR_ENEMY_BULLET:
         return "X";
-      case CHAR_USER:
-          return "U";
+    case BOARD_EMPTY_CELL:
+          return " ";
     default:
-      return "";
+      return " ";
   }
 }
 

@@ -50,7 +50,7 @@ void Keypad_Init() {
 
 void Keypad_OnInterrupt(uint16_t GPIO_Pin) {
   current_time = HAL_GetTick();
-  if (current_time - last_debounce_time < 200) return;
+  if (current_time - last_debounce_time < 500) return;
   last_debounce_time = current_time;
 
   switch(GPIO_Pin) {
