@@ -272,6 +272,30 @@ Core/Src/LiquidCrystal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.s
 .PHONY : Core/Src/LiquidCrystal.c.s
 
+Core/Src/MenuScreen.obj: Core/Src/MenuScreen.c.obj
+.PHONY : Core/Src/MenuScreen.obj
+
+# target to build an object file
+Core/Src/MenuScreen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/MenuScreen.c.obj
+.PHONY : Core/Src/MenuScreen.c.obj
+
+Core/Src/MenuScreen.i: Core/Src/MenuScreen.c.i
+.PHONY : Core/Src/MenuScreen.i
+
+# target to preprocess a source file
+Core/Src/MenuScreen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/MenuScreen.c.i
+.PHONY : Core/Src/MenuScreen.c.i
+
+Core/Src/MenuScreen.s: Core/Src/MenuScreen.c.s
+.PHONY : Core/Src/MenuScreen.s
+
+# target to generate assembly for a file
+Core/Src/MenuScreen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/MenuScreen.c.s
+.PHONY : Core/Src/MenuScreen.c.s
+
 Core/Src/UART.obj: Core/Src/UART.c.obj
 .PHONY : Core/Src/UART.obj
 
@@ -1027,6 +1051,9 @@ help:
 	@echo ... Core/Src/LiquidCrystal.obj
 	@echo ... Core/Src/LiquidCrystal.i
 	@echo ... Core/Src/LiquidCrystal.s
+	@echo ... Core/Src/MenuScreen.obj
+	@echo ... Core/Src/MenuScreen.i
+	@echo ... Core/Src/MenuScreen.s
 	@echo ... Core/Src/UART.obj
 	@echo ... Core/Src/UART.i
 	@echo ... Core/Src/UART.s

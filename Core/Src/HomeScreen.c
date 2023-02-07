@@ -7,12 +7,15 @@
 #include "Utils.h"
 #include "LiquidCrystal.h"
 #include "Constants.h"
+#include "types.h"
 
 bool showRow1 = true;
 
 char *row1Text = "       Space        ";
 char *row2Text = "      Invaders      ";
 char *emptyRow = "                    ";
+
+extern ScreenType currentScreen;
 
 void updateBoard() {
   setCursor(0, 0);
@@ -45,4 +48,9 @@ void updateBoard() {
 void HomeScreen_OnEverySecond() {
   updateBoard();
   showRow1 = Utils_Toggle(showRow1);
+}
+
+// move to next screen on any key press
+void HomeScreen_OnKeyPress() {
+  currentScreen = SCREEN_MENU; // change SCREEN_MENU to SCREEN_GAME for debug (start game immediately)
 }

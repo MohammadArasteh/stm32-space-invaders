@@ -6,5 +6,6 @@
 #define SPACEINVADERS_HOMESCREEN_H
 
 void HomeScreen_OnEverySecond();
+void HomeScreen_OnKeyPress();
 
 #endif //SPACEINVADERS_HOMESCREEN_H
