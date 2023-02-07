@@ -111,6 +111,9 @@
 		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Inc/LiquidCrystal.h">
 			<Option target="SpaceInvaders.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Inc/UART.h">
+			<Option target="SpaceInvaders.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Inc/Utils.h">
 			<Option target="SpaceInvaders.elf"/>
 		</Unit>
@@ -135,6 +138,12 @@
 		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/HomeScreen.c">
 			<Option target="SpaceInvaders.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/Keypad.c">
+			<Option target="SpaceInvaders.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/Keypad.h">
+			<Option target="SpaceInvaders.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/LCD.c">
 			<Option target="SpaceInvaders.elf"/>
 		</Unit>
@@ -142,9 +151,6 @@
 			<Option target="SpaceInvaders.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/UART.c">
-			<Option target="SpaceInvaders.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/UART.h">
 			<Option target="SpaceInvaders.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/Utils.c">

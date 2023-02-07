@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj.d"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj.d"
+  "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj"
+  "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj.d"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj.d"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj"

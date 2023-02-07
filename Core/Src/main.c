@@ -21,9 +21,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "Constants.h"
 #include "LCD.h"
 #include "UART.h"
+#include "Keypad.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -52,8 +52,6 @@ UART_HandleTypeDef huart1;
 PCD_HandleTypeDef hpcd_USB_FS;
 
 /* USER CODE BEGIN PV */
-unsigned long last_debounce_time = 0;
-unsigned long current_time = 0;
 
 /* USER CODE END PV */
 
@@ -75,30 +73,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-    current_time = HAL_GetTick();
-    if (current_time - last_debounce_time < 200) return;
-    last_debounce_time = current_time;
-
-    switch(GPIO_Pin) {
-        case COLUMN1:
-            if(HAL_GPIO_ReadPin(GPIOB, COLUMN1))
-                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
-            break;
-        case COLUMN2:
-            if(HAL_GPIO_ReadPin(GPIOB, COLUMN2))
-                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
-            break;
-        case COLUMN3:
-            if(HAL_GPIO_ReadPin(GPIOB, COLUMN3))
-                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
-            break;
-        case COLUMN4:
-            if(HAL_GPIO_ReadPin(GPIOB, COLUMN4))
-                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
-            break;
-        default:
-            break;
-    }
+  Keypad_OnInterrupt(GPIO_Pin);
 }
 /* USER CODE END 0 */
 
@@ -137,7 +112,7 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   LCD_Init();
-  HAL_GPIO_WritePin(GPIOB, ROW1, GPIO_PIN_SET);
+  Keypad_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */

@@ -200,6 +200,30 @@ Core/Src/HomeScreen.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.s
 .PHONY : Core/Src/HomeScreen.c.s
 
+Core/Src/Keypad.obj: Core/Src/Keypad.c.obj
+.PHONY : Core/Src/Keypad.obj
+
+# target to build an object file
+Core/Src/Keypad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
+.PHONY : Core/Src/Keypad.c.obj
+
+Core/Src/Keypad.i: Core/Src/Keypad.c.i
+.PHONY : Core/Src/Keypad.i
+
+# target to preprocess a source file
+Core/Src/Keypad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.i
+.PHONY : Core/Src/Keypad.c.i
+
+Core/Src/Keypad.s: Core/Src/Keypad.c.s
+.PHONY : Core/Src/Keypad.s
+
+# target to generate assembly for a file
+Core/Src/Keypad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.s
+.PHONY : Core/Src/Keypad.c.s
+
 Core/Src/LCD.obj: Core/Src/LCD.c.obj
 .PHONY : Core/Src/LCD.obj
 
@@ -994,6 +1018,9 @@ help:
 	@echo ... Core/Src/HomeScreen.obj
 	@echo ... Core/Src/HomeScreen.i
 	@echo ... Core/Src/HomeScreen.s
+	@echo ... Core/Src/Keypad.obj
+	@echo ... Core/Src/Keypad.i
+	@echo ... Core/Src/Keypad.s
 	@echo ... Core/Src/LCD.obj
 	@echo ... Core/Src/LCD.i
 	@echo ... Core/Src/LCD.s
