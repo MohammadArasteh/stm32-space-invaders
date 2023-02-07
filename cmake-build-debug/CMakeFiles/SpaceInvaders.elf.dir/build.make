@@ -110,10 +110,24 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.s"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\HomeScreen.c -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\HomeScreen.c.s
 
+CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
+CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/LCD.c
+CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\LCD.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\LCD.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\LCD.c
+
+CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\LCD.c > CMakeFiles\SpaceInvaders.elf.dir\Core\Src\LCD.c.i
+
+CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\LCD.c -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\LCD.c.s
+
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/LiquidCrystal.c
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\LiquidCrystal.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\LiquidCrystal.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\LiquidCrystal.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.s: cmake_force
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/Utils.c
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\Utils.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\Utils.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\Utils.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.s: cmake_force
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/main.c
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\main.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\main.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/stm32f3xx_hal_msp.c
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\stm32f3xx_hal_msp.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\stm32f3xx_hal_msp.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\stm32f3xx_hal_msp.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.s: cmake_force
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/stm32f3xx_it.c
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\stm32f3xx_it.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\stm32f3xx_it.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\stm32f3xx_it.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.s: cmake_force
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/syscalls.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/syscalls.c
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/syscalls.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\syscalls.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/sysmem.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/sysmem.c
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/sysmem.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\sysmem.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/system_stm32f3xx.c
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Core\Src\system_stm32f3xx.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Core\Src\system_stm32f3xx.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Src\system_stm32f3xx.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.s: cmake_force
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Startup/startup_stm32f303vctx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\SpaceInvaders.elf.dir\Core\Startup\startup_stm32f303vctx.s.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Core\Startup\startup_stm32f303vctx.s
 
 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.s: cmake_f
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_exti.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_exti.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_exti.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd_ex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd_ex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd_ex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd_ex.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi_ex.c.i: cmake_force
@@ -476,7 +490,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.i: cmake_force
@@ -490,7 +504,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.i: cmake_force
@@ -504,7 +518,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart_ex.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart_ex.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart_ex.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.i: cmake_force
@@ -532,7 +546,7 @@ CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: CMakeFiles/SpaceInvaders.elf.dir/flags.make
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj: CMakeFiles/SpaceInvaders.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj -MF CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_usb.c.obj.d -o CMakeFiles\SpaceInvaders.elf.dir\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_usb.c.obj -c C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_usb.c
 
 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.i: cmake_force
@@ -548,6 +562,7 @@ SpaceInvaders_elf_OBJECTS = \
 "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj" \
 "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj" \
 "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj" \
+"CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj" \
 "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj" \
 "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj" \
 "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj" \
@@ -586,6 +601,7 @@ SpaceInvaders_elf_EXTERNAL_OBJECTS =
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj
+SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
@@ -619,7 +635,7 @@ SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/build.make
 SpaceInvaders.elf: CMakeFiles/SpaceInvaders.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking C executable SpaceInvaders.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable SpaceInvaders.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SpaceInvaders.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/SpaceInvaders.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/SpaceInvaders.bin"

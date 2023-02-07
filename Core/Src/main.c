@@ -24,6 +24,7 @@
 #include <string.h>
 #include "LiquidCrystal.h"
 #include "Constants.h"
+#include "LCD.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -70,8 +71,6 @@ static void MX_USB_PCD_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
 void printUART(char *string);
 /* USER CODE END PFP */
 
@@ -119,37 +118,6 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
             break;
     }
 }
-
-uint16_t spaceship1[] = { // enemy
-        0B10000,
-        0B11001,
-        0B01110,
-        0B11101,
-        0B11101,
-        0B01110,
-        0B11001,
-        0B10000
-};
-uint16_t spaceship2[] = { // enemy
-        0B00011,
-        0B01001,
-        0B00111,
-        0B11101,
-        0B11101,
-        0B00111,
-        0B01001,
-        0B00011
-};
-uint16_t spaceship3[] = { // player
-        0B11001,
-        0B01011,
-        0B01110,
-        0B11101,
-        0B11101,
-        0B01110,
-        0B01011,
-        0B11001
-};
 /* USER CODE END 0 */
 
 /**
@@ -186,12 +154,7 @@ int main(void)
   MX_TIM2_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  LiquidCrystal(GPIOD, LCD_D1, LCD_D2, LCD_D3, LCD_D4, LCD_D5, LCD_D6, LCD_D7);
-  begin(20, 4);
-  createChar(0, (uint8_t *) spaceship1);
-  createChar(1, (uint8_t *) spaceship2);
-  createChar(2, (uint8_t *) spaceship3);
-
+  LCD_Init();
   HAL_GPIO_WritePin(GPIOB, ROW1, GPIO_PIN_SET);
   /* USER CODE END 2 */
 
