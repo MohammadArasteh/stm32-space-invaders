@@ -152,6 +152,30 @@ Core/Src/GameBoard.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.s
 .PHONY : Core/Src/GameBoard.c.s
 
+Core/Src/GlobalVariables.obj: Core/Src/GlobalVariables.c.obj
+.PHONY : Core/Src/GlobalVariables.obj
+
+# target to build an object file
+Core/Src/GlobalVariables.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj
+.PHONY : Core/Src/GlobalVariables.c.obj
+
+Core/Src/GlobalVariables.i: Core/Src/GlobalVariables.c.i
+.PHONY : Core/Src/GlobalVariables.i
+
+# target to preprocess a source file
+Core/Src/GlobalVariables.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.i
+.PHONY : Core/Src/GlobalVariables.c.i
+
+Core/Src/GlobalVariables.s: Core/Src/GlobalVariables.c.s
+.PHONY : Core/Src/GlobalVariables.s
+
+# target to generate assembly for a file
+Core/Src/GlobalVariables.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.s
+.PHONY : Core/Src/GlobalVariables.c.s
+
 Core/Src/HomeScreen.obj: Core/Src/HomeScreen.c.obj
 .PHONY : Core/Src/HomeScreen.obj
 
@@ -916,6 +940,9 @@ help:
 	@echo ... Core/Src/GameBoard.obj
 	@echo ... Core/Src/GameBoard.i
 	@echo ... Core/Src/GameBoard.s
+	@echo ... Core/Src/GlobalVariables.obj
+	@echo ... Core/Src/GlobalVariables.i
+	@echo ... Core/Src/GlobalVariables.s
 	@echo ... Core/Src/HomeScreen.obj
 	@echo ... Core/Src/HomeScreen.i
 	@echo ... Core/Src/HomeScreen.s

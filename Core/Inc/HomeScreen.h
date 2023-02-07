@@ -5,6 +5,6 @@
 #ifndef SPACEINVADERS_HOMESCREEN_H
 #define SPACEINVADERS_HOMESCREEN_H
 
-void HomeScreen_OnEachSecond();
+void HomeScreen_OnEverySecond();
 
 #endif //SPACEINVADERS_HOMESCREEN_H

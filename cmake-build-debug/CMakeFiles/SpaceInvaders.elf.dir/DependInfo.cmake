@@ -31,6 +31,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/GameBoard.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj.d"
+  "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/GlobalVariables.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj.d"
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/HomeScreen.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj.d"
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/LiquidCrystal.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj.d"
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/Utils.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj.d"

@@ -42,7 +42,7 @@ void updateBoard() {
   print("        ");
 }
 
-void HomeScreen_OnEachSecond() {
+void HomeScreen_OnEverySecond() {
   updateBoard();
   showRow1 = Utils_Toggle(showRow1);
 }

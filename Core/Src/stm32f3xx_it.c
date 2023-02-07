@@ -25,6 +25,8 @@
 #include "GameBoard.h"
 #include "LiquidCrystal.h"
 #include "Utils.h"
+#include "types.h"
+#include "HomeScreen.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -46,6 +48,7 @@
 /* USER CODE BEGIN PV */
 int timer_counter = 0;
 extern int board[21][4];
+extern ScreenType currentScreen;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -69,7 +72,11 @@ void render_board() {
 }
 
 void onEveryHalfSecond() {}
-void onEveryOneSecond() {}
+void onEveryOneSecond() {
+  if (currentScreen == SCREEN_HOME) {
+    HomeScreen_OnEverySecond();
+  }
+}
 void onEveryThreeSeconds() {}
 void onEveryFiveSeconds() {}
 /* USER CODE END 0 */
