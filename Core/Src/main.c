@@ -72,6 +72,13 @@ static void MX_USART1_UART_Init(void);
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
 void printUART(char *string);
+
+// controlling functions
+void left();
+void right();
+void shoot();
+void accept();
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -79,6 +86,10 @@ void printUART(char *string);
 void printUART(char *string) {
   HAL_UART_Transmit(&huart1, (uint8_t *)string, strlen(string), 1000);
 }
+void left() {}
+void right() {}
+void shoot() {}
+void accept() {}
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
   if (uart_input_char[0] != '\n') {
