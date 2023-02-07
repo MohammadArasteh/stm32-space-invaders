@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SpaceInvaders.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SpaceInvaders.elf-Debug-531677228c96e5dcd9c7.json",
+					"jsonFile" : "target-SpaceInvaders.elf-Debug-643f9128a860a40266ae.json",
 					"name" : "SpaceInvaders.elf",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/alireza/CLionProjects/SpaceInvaders/cmake-build-debug",
-		"source" : "C:/Users/alireza/CLionProjects/SpaceInvaders"
+		"build" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug",
+		"source" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders"
 	},
 	"version" : 
 	{
