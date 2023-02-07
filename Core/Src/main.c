@@ -97,6 +97,37 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
             break;
     }
 }
+
+uint16_t spaceship1[] = { // enemy
+        0B10000,
+        0B11001,
+        0B01110,
+        0B11101,
+        0B11101,
+        0B01110,
+        0B11001,
+        0B10000
+};
+uint16_t spaceship2[] = { // enemy
+        0B00011,
+        0B01001,
+        0B00111,
+        0B11101,
+        0B11101,
+        0B00111,
+        0B01001,
+        0B00011
+};
+uint16_t spaceship3[] = { // player
+        0B11001,
+        0B01011,
+        0B01110,
+        0B11101,
+        0B11101,
+        0B01110,
+        0B01011,
+        0B11001
+};
 /* USER CODE END 0 */
 
 /**
