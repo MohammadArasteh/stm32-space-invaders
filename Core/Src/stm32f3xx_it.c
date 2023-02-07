@@ -29,6 +29,7 @@
 #include "HomeScreen.h"
 #include "MenuScreen.h"
 #include "AboutScreen.h"
+#include "InputNameScreen.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -82,6 +83,8 @@ void onEveryOneSecond() {
 //    MenuScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_ABOUT) {
 //    AboutScreen_OnEverySecond();
+  } else if (currentScreen == SCREEN_INPUT_NAME) {
+//    InputNameScreen_OnEverySecond();
   }
 }
 void onEveryThreeSeconds() {}

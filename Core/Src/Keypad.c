@@ -9,6 +9,7 @@
 #include "HomeScreen.h"
 #include "MenuScreen.h"
 #include "AboutScreen.h"
+#include "InputNameScreen.h"
 
 
 unsigned long last_debounce_time = 0;
@@ -27,8 +28,8 @@ void handleKeyPress(char *key) {
        AboutScreen_OnKeyPress();
        break;
     case SCREEN_INPUT_NAME:
-      // InputScreen_OnKeyPress(key);
-      // break;
+       InputNameScreen_OnKeyPress();
+       break;
     case SCREEN_SET_DIFFICULTY:
       // SetDifficultyScreen_OnKeyPress(key);
       // break;
