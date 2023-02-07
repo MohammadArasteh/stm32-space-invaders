@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders
+CMAKE_SOURCE_DIR = C:\Users\alireza\CLionProjects\SpaceInvaders
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cma
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debug\CMakeFiles C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,30 @@ SpaceInvaders.elf: cmake_check_build_system
 SpaceInvaders.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/build
 .PHONY : SpaceInvaders.elf/fast
+
+Core/Src/GameBoard.obj: Core/Src/GameBoard.c.obj
+.PHONY : Core/Src/GameBoard.obj
+
+# target to build an object file
+Core/Src/GameBoard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
+.PHONY : Core/Src/GameBoard.c.obj
+
+Core/Src/GameBoard.i: Core/Src/GameBoard.c.i
+.PHONY : Core/Src/GameBoard.i
+
+# target to preprocess a source file
+Core/Src/GameBoard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.i
+.PHONY : Core/Src/GameBoard.c.i
+
+Core/Src/GameBoard.s: Core/Src/GameBoard.c.s
+.PHONY : Core/Src/GameBoard.s
+
+# target to generate assembly for a file
+Core/Src/GameBoard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.s
+.PHONY : Core/Src/GameBoard.c.s
 
 Core/Src/LiquidCrystal.obj: Core/Src/LiquidCrystal.c.obj
 .PHONY : Core/Src/LiquidCrystal.obj
@@ -841,6 +865,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SpaceInvaders.elf
+	@echo ... Core/Src/GameBoard.obj
+	@echo ... Core/Src/GameBoard.i
+	@echo ... Core/Src/GameBoard.s
 	@echo ... Core/Src/LiquidCrystal.obj
 	@echo ... Core/Src/LiquidCrystal.i
 	@echo ... Core/Src/LiquidCrystal.s

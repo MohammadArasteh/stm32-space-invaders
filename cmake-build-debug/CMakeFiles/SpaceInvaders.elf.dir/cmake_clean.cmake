@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj"
+  "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj.d"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj.d"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj"

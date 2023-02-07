@@ -34,13 +34,25 @@
 // END: GPIO-D
 
 // characters
-#define USER
-#define DEAD_USER 2
-#define USER_BULLET = 1
-#define ENEMY
+#define USER 3
+#define USER_BULLET 1
+#define ENEMY -3
 #define DEAD_ENEMY -2
-#define ENEMY_BULLET = -1
-#define
+#define ENEMY_BULLET -1
+
+// difficulty
+#define EASY 1
+#define NORMAL 2
+#define HARD 3
+
+// board
+#define EMPTY_CELL 0
+#define STATUS_ROW 21
+#define USER_HP_COL 0
+#define ENEMY_COUNT_COL 1
+#define DIFFICULTY_COL 2
+#define FINISHED_COL 3
+/* Status Row: [UserHp, EnemyCount, Difficulty, isFinished] */
 
 
 #endif //SPACEINVADERS_CONSTANTS_H

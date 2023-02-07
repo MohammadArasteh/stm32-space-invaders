@@ -22,6 +22,9 @@
 #include "stm32f3xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "GameBoard.h"
+#include "LiquidCrystal.h"
+extern int board[21][4];
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -51,7 +54,22 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+char* getCharacter(int value) {
+    switch(value) {
+        case 1:
+            return "O";
+        default:
+            return "";
+    }
+}
+void render_board() {
+    setCursor(0, 0);
+    for(int col = 0; col < 4; col++)
+        for(int row = 0; row < 20; row++) {
+            char* content = getCharacter(board[row][col]);
+            print(content);
+        }
+}
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -208,6 +226,8 @@ void TIM2_IRQHandler(void)
 
   /* USER CODE END TIM2_IRQn 0 */
   HAL_TIM_IRQHandler(&htim2);
+  update_board(0, 0);
+  render_board();
   /* USER CODE BEGIN TIM2_IRQn 1 */
 
   /* USER CODE END TIM2_IRQn 1 */
