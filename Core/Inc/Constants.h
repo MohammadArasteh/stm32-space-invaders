@@ -33,4 +33,14 @@
 #define LCD_D7 GPIO_PIN_14
 // END: GPIO-D
 
+// characters
+#define USER
+#define DEAD_USER 2
+#define USER_BULLET = 1
+#define ENEMY
+#define DEAD_ENEMY -2
+#define ENEMY_BULLET = -1
+#define
+
+
 #endif //SPACEINVADERS_CONSTANTS_H
