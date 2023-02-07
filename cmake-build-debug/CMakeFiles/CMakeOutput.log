@@ -35,94 +35,51 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_bf505/fast && C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bf505.dir\build.make CMakeFiles/cmTC_bf505.dir/build
-
-mingw32-make[1]: Entering directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-Building C object CMakeFiles/cmTC_bf505.dir/CMakeCCompilerABI.c.obj
-
-"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
-
-Using built-in specs.
-
-COLLECT_GCC=C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe
-
-Target: arm-none-eabi
-
-Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)' --with-bugurl=https://bugs.linaro.org/
-
-Thread model: single
-
-Supported LTO compression algorithms: zlib
-
-gcc version 12.2.0 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 
-
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_bf505.dir\'
-
- c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/cc1.exe -quiet -v -iprefix c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/ -isysroot c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_bf505.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\SMhd3\AppData\Local\Temp\ccJwSDDb.s
-
-GNU C17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)
-
-	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
-
-
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/include"
-
-ignoring nonexistent directory "c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.2.0/../../../../include"
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/include-fixed"
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include"
-
-ignoring nonexistent directory "c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi/usr/include"
-
-#include "..." search starts here:
-
-#include <...> search starts here:
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include-fixed
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include
-
-End of search list.
-
-GNU C17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)
-
-	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
-
-
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-
-Compiler executable checksum: 15bd107dc2bfd90eae4803c838ce7c69
-
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_bf505.dir\'
-
- c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj C:\Users\SMhd3\AppData\Local\Temp\ccJwSDDb.s
-
-GNU assembler version 2.39.50 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 2.39.50.20220821
-
-COMPILER_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/
-
-LIBRARY_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../arm-none-eabi/lib/
-
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.'
-
-Linking C static library libcmTC_bf505.a
-
-"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_bf505.dir\cmake_clean_target.cmake
-
-"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bf505.dir\link.txt --verbose=1
-
-arm-none-eabi-ar qc libcmTC_bf505.a CMakeFiles/cmTC_bf505.dir/CMakeCCompilerABI.c.obj
-"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-ranlib.exe" libcmTC_bf505.a
-mingw32-make[1]: Leaving directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp'
-
+Run Build Command(s):C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_56566/fast && C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_56566.dir\build.make CMakeFiles/cmTC_56566.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56566.dir/CMakeCCompilerABI.c.obj
+"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_56566.dir\'
+ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/cc1.exe -quiet -v -iprefix c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/ -isysroot c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_56566.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\SMhd3\AppData\Local\Temp\ccvwziBQ.s
+GNU C17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/include"
+ignoring nonexistent directory "c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.2.0/../../../../include"
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/include-fixed"
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include-fixed
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 15bd107dc2bfd90eae4803c838ce7c69
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_56566.dir\'
+ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj C:\Users\SMhd3\AppData\Local\Temp\ccvwziBQ.s
+GNU assembler version 2.39.50 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 2.39.50.20220821
+COMPILER_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.'
+Linking C static library libcmTC_56566.a
+"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_56566.dir\cmake_clean_target.cmake
+"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_56566.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_56566.a CMakeFiles/cmTC_56566.dir/CMakeCCompilerABI.c.obj
+"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-ranlib.exe" libcmTC_56566.a
+mingw32-make[1]: Leaving directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -143,10 +100,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_bf505/fast && C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bf505.dir\build.make CMakeFiles/cmTC_bf505.dir/build]
+  ignore line: [Run Build Command(s):C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_56566/fast && C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_56566.dir\build.make CMakeFiles/cmTC_56566.dir/build]
   ignore line: [mingw32-make[1]: Entering directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_bf505.dir/CMakeCCompilerABI.c.obj]
-  ignore line: ["C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Building C object CMakeFiles/cmTC_56566.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-gcc.exe]
   ignore line: [Target: arm-none-eabi]
@@ -154,8 +111,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.2.0 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_bf505.dir\']
-  ignore line: [ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/cc1.exe -quiet -v -iprefix c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/ -isysroot c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_bf505.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\SMhd3\AppData\Local\Temp\ccJwSDDb.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_56566.dir\']
+  ignore line: [ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/cc1.exe -quiet -v -iprefix c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/ -isysroot c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_56566.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\SMhd3\AppData\Local\Temp\ccvwziBQ.s]
   ignore line: [GNU C17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -176,8 +133,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 15bd107dc2bfd90eae4803c838ce7c69]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_bf505.dir\']
-  ignore line: [ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj C:\Users\SMhd3\AppData\Local\Temp\ccJwSDDb.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_56566.dir\']
+  ignore line: [ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj C:\Users\SMhd3\AppData\Local\Temp\ccvwziBQ.s]
   ignore line: [GNU assembler version 2.39.50 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 2.39.50.20220821]
   ignore line: [COMPILER_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/]
   ignore line: [c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/]
@@ -186,12 +143,12 @@ Parsed C implicit link information from above output:
   ignore line: [c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/]
   ignore line: [c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/]
   ignore line: [c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_bf505.dir\CMakeCCompilerABI.c.']
-  ignore line: [Linking C static library libcmTC_bf505.a]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_bf505.dir\cmake_clean_target.cmake]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bf505.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_bf505.a CMakeFiles/cmTC_bf505.dir/CMakeCCompilerABI.c.obj]
-  ignore line: ["C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-ranlib.exe" libcmTC_bf505.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_56566.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C static library libcmTC_56566.a]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_56566.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_56566.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_56566.a CMakeFiles/cmTC_56566.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-ranlib.exe" libcmTC_56566.a]
   ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
@@ -204,106 +161,57 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e2de0/fast && C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e2de0.dir\build.make CMakeFiles/cmTC_e2de0.dir/build
-
-mingw32-make[1]: Entering directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-Building CXX object CMakeFiles/cmTC_e2de0.dir/CMakeCXXCompilerABI.cpp.obj
-
-"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
-
-Using built-in specs.
-
-COLLECT_GCC=C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-g++.exe
-
-Target: arm-none-eabi
-
-Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)' --with-bugurl=https://bugs.linaro.org/
-
-Thread model: single
-
-Supported LTO compression algorithms: zlib
-
-gcc version 12.2.0 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 
-
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_e2de0.dir\'
-
- c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/cc1plus.exe -quiet -v -iprefix c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/ -isysroot c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_e2de0.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\SMhd3\AppData\Local\Temp\ccL9Kcit.s
-
-GNU C++17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)
-
-	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
-
-
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0"
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/arm-none-eabi"
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/backward"
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/include"
-
-ignoring nonexistent directory "c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.2.0/../../../../include"
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/include-fixed"
-
-ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include"
-
-ignoring nonexistent directory "c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi/usr/include"
-
-#include "..." search starts here:
-
-#include <...> search starts here:
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/arm-none-eabi
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/backward
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include-fixed
-
- c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include
-
-End of search list.
-
-GNU C++17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)
-
-	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
-
-
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-
-Compiler executable checksum: d1059dd174be19d4d665fa8ba002aea3
-
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_e2de0.dir\'
-
- c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\SMhd3\AppData\Local\Temp\ccL9Kcit.s
-
-GNU assembler version 2.39.50 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 2.39.50.20220821
-
-COMPILER_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/
-
-LIBRARY_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../arm-none-eabi/lib/
-
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.'
-
-Linking CXX static library libcmTC_e2de0.a
-
-"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_e2de0.dir\cmake_clean_target.cmake
-
-"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e2de0.dir\link.txt --verbose=1
-
-arm-none-eabi-ar qc libcmTC_e2de0.a CMakeFiles/cmTC_e2de0.dir/CMakeCXXCompilerABI.cpp.obj
-"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-ranlib.exe" libcmTC_e2de0.a
-mingw32-make[1]: Leaving directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp'
-
+Run Build Command(s):C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c2e17/fast && C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c2e17.dir\build.make CMakeFiles/cmTC_c2e17.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2e17.dir/CMakeCXXCompilerABI.cpp.obj
+"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-g++.exe
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_c2e17.dir\'
+ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/cc1plus.exe -quiet -v -iprefix c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/ -isysroot c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_c2e17.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\SMhd3\AppData\Local\Temp\ccfOZgT7.s
+GNU C++17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0"
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/arm-none-eabi"
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/backward"
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/include"
+ignoring nonexistent directory "c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12-mpacbti/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.2.0/../../../../include"
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/include-fixed"
+ignoring duplicate directory "c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/arm-none-eabi
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/backward
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include-fixed
+ c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include
+End of search list.
+GNU C++17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d1059dd174be19d4d665fa8ba002aea3
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_c2e17.dir\'
+ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\SMhd3\AppData\Local\Temp\ccfOZgT7.s
+GNU assembler version 2.39.50 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 2.39.50.20220821
+COMPILER_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/;c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX static library libcmTC_c2e17.a
+"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_c2e17.dir\cmake_clean_target.cmake
+"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c2e17.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_c2e17.a CMakeFiles/cmTC_c2e17.dir/CMakeCXXCompilerABI.cpp.obj
+"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-ranlib.exe" libcmTC_c2e17.a
+mingw32-make[1]: Leaving directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -330,10 +238,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e2de0/fast && C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e2de0.dir\build.make CMakeFiles/cmTC_e2de0.dir/build]
+  ignore line: [Run Build Command(s):C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c2e17/fast && C:/PROGRA~1/JetBrains/CLion 2022.3/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c2e17.dir\build.make CMakeFiles/cmTC_c2e17.dir/build]
   ignore line: [mingw32-make[1]: Entering directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_e2de0.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: ["C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c2e17.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-g++.exe]
   ignore line: [Target: arm-none-eabi]
@@ -341,8 +249,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.2.0 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_e2de0.dir\']
-  ignore line: [ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/cc1plus.exe -quiet -v -iprefix c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/ -isysroot c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_e2de0.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\SMhd3\AppData\Local\Temp\ccL9Kcit.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_c2e17.dir\']
+  ignore line: [ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/cc1plus.exe -quiet -v -iprefix c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/ -isysroot c:\progra~2\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_c2e17.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\Users\SMhd3\AppData\Local\Temp\ccfOZgT7.s]
   ignore line: [GNU C++17 (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) version 12.2.0 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -369,8 +277,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d1059dd174be19d4d665fa8ba002aea3]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_e2de0.dir\']
-  ignore line: [ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\SMhd3\AppData\Local\Temp\ccL9Kcit.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_c2e17.dir\']
+  ignore line: [ c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\SMhd3\AppData\Local\Temp\ccfOZgT7.s]
   ignore line: [GNU assembler version 2.39.50 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.MPACBTI-Bet1 (Build arm-12-mpacbti.16)) 2.39.50.20220821]
   ignore line: [COMPILER_PATH=c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/arm-none-eabi/12.2.0/]
   ignore line: [c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../libexec/gcc/]
@@ -379,12 +287,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/]
   ignore line: [c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/]
   ignore line: [c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 mpacbti-bet1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_e2de0.dir\CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX static library libcmTC_e2de0.a]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_e2de0.dir\cmake_clean_target.cmake]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e2de0.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_e2de0.a CMakeFiles/cmTC_e2de0.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: ["C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-ranlib.exe" libcmTC_e2de0.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_c2e17.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX static library libcmTC_c2e17.a]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_c2e17.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c2e17.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_c2e17.a CMakeFiles/cmTC_c2e17.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\arm-none-eabi-ranlib.exe" libcmTC_c2e17.a]
   ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []

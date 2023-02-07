@@ -7,6 +7,7 @@
 #include "Constants.h"
 #include "types.h"
 #include "HomeScreen.h"
+#include "MenuScreen.h"
 
 
 unsigned long last_debounce_time = 0;
@@ -19,8 +20,8 @@ void handleKeyPress(char *key) {
       HomeScreen_OnKeyPress();
       break;
     case SCREEN_MENU:
-      // MenuScreen_OnKeyPress(key)
-      // break;
+       MenuScreen_OnKeyPress(key);
+       break;
     case SCREEN_ABOUT:
       // AboutScreen_OnKeyPress(key)
       // break;

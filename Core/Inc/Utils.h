@@ -10,4 +10,9 @@
 bool Utils_Toggle(bool x);
 char *Utils_GetCharacter(int value);
 
+bool Utils_IsStringOne(char *key);
+bool Utils_IsStringTwo(char *key);
+bool Utils_IsStringThree(char *key);
+bool Utils_IsStringA(char *key);
+
 #endif //SPACEINVADERS_UTILS_H

@@ -27,6 +27,7 @@
 #include "Utils.h"
 #include "types.h"
 #include "HomeScreen.h"
+#include "MenuScreen.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -76,6 +77,8 @@ void onEveryOneSecond() {
     update_board(0, 0);
   if (currentScreen == SCREEN_HOME) {
 //    HomeScreen_OnEverySecond();
+  } else if (currentScreen == SCREEN_MENU) {
+//    MenuScreen_OnEverySecond();
   }
 }
 void onEveryThreeSeconds() {}
