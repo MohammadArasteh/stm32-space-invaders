@@ -24,7 +24,6 @@
 /* USER CODE BEGIN Includes */
 #include "GameBoard.h"
 #include "LiquidCrystal.h"
-extern int board[21][4];
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,12 +43,18 @@ extern int board[21][4];
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-
+int timer_counter = 0;
+extern int board[21][4];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-
+char* getCharacter(int value);
+void render_board();
+void onEveryHalfSecond();
+void onEveryOneSecond();
+void onEveryThreeSeconds();
+void onEveryFiveSeconds();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -70,6 +75,11 @@ void render_board() {
             print(content);
         }
 }
+
+void onEveryHalfSecond() {}
+void onEveryOneSecond() {}
+void onEveryThreeSeconds() {}
+void onEveryFiveSeconds() {}
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -225,11 +235,19 @@ void TIM2_IRQHandler(void)
   /* USER CODE BEGIN TIM2_IRQn 0 */
 
   /* USER CODE END TIM2_IRQn 0 */
+
+  /* USER CODE BEGIN TIM2_IRQn 1 */
   HAL_TIM_IRQHandler(&htim2);
+
+  timer_counter++;
+
+  onEveryHalfSecond();
+  if (timer_counter % 2 == 0) onEveryOneSecond(); // one second = 2 * half second
+  if (timer_counter % 6 == 0) onEveryThreeSeconds(); // three seconds = 6 * half second
+  if (timer_counter % 10 == 0) onEveryFiveSeconds(); // five seconds = 10 * half second
+
   update_board(0, 0);
   render_board();
-  /* USER CODE BEGIN TIM2_IRQn 1 */
-
   /* USER CODE END TIM2_IRQn 1 */
 }
 
