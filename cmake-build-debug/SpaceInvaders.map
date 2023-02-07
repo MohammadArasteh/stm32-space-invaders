@@ -105,8 +105,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
  .data          0x00000000        0x0 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
  .bss           0x00000000        0x0 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
- .text.Keypad_Init
-                0x00000000       0x14 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
  .text          0x00000000        0x0 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
  .data          0x00000000        0x0 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
  .bss           0x00000000        0x0 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
@@ -1799,7 +1797,7 @@ LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x080001c0     0x3128
+.text           0x080001c0     0x3138
                 0x080001c0                . = ALIGN (0x4)
  *(.text)
  .text          0x080001c0       0xdc c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-strlen.o)
@@ -1814,520 +1812,523 @@ LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
  .text.frame_dummy
                 0x08000304       0x24 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
  .text.update_bullets_position
-                0x08000328       0x88 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
+                0x08000328       0x80 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
                 0x08000328                update_bullets_position
  .text.update_board
-                0x080003b0        0x8 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
-                0x080003b0                update_board
+                0x080003a8        0x8 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
+                0x080003a8                update_board
  .text.HomeScreen_OnKeyPress
-                0x080003b8        0xc CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj
-                0x080003b8                HomeScreen_OnKeyPress
+                0x080003b0        0xc CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj
+                0x080003b0                HomeScreen_OnKeyPress
  .text.handleKeyPress
-                0x080003c4       0x14 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
-                0x080003c4                handleKeyPress
+                0x080003bc       0x14 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
+                0x080003bc                handleKeyPress
+ .text.Keypad_Init
+                0x080003d0       0x14 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
+                0x080003d0                Keypad_Init
  .text.Keypad_OnInterrupt
-                0x080003d8       0xa4 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
-                0x080003d8                Keypad_OnInterrupt
+                0x080003e4       0xa4 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
+                0x080003e4                Keypad_OnInterrupt
  .text.LCD_Init
-                0x0800047c       0x64 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
-                0x0800047c                LCD_Init
+                0x08000488       0x64 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
+                0x08000488                LCD_Init
  .text.enableClock
-                0x080004e0       0xd4 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x080004e0                enableClock
+                0x080004ec       0xd4 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x080004ec                enableClock
  .text.setRowOffsets
-                0x080005b4       0x14 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x080005b4                setRowOffsets
+                0x080005c0       0x14 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x080005c0                setRowOffsets
  .text.pulseEnable
-                0x080005c8       0x40 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x080005c8                pulseEnable
+                0x080005d4       0x40 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x080005d4                pulseEnable
  .text.write4bits
-                0x08000608       0x34 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x08000608                write4bits
+                0x08000614       0x34 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x08000614                write4bits
  .text.write8bits
-                0x0800063c       0x34 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x0800063c                write8bits
- .text.send     0x08000670       0x58 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x08000670                send
- .text.clear    0x080006c8       0x12 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x080006c8                clear
- *fill*         0x080006da        0x2 
+                0x08000648       0x34 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x08000648                write8bits
+ .text.send     0x0800067c       0x58 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x0800067c                send
+ .text.clear    0x080006d4       0x12 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x080006d4                clear
+ *fill*         0x080006e6        0x2 
  .text.setCursor
-                0x080006dc       0x30 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x080006dc                setCursor
- .text.display  0x0800070c       0x1c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x0800070c                display
- .text.begin    0x08000728      0x1b0 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x08000728                begin
- .text.init     0x080008d8       0x7c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x080008d8                init
+                0x080006e8       0x30 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x080006e8                setCursor
+ .text.display  0x08000718       0x1c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x08000718                display
+ .text.begin    0x08000734      0x1b0 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x08000734                begin
+ .text.init     0x080008e4       0x7c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x080008e4                init
  .text.LiquidCrystal
-                0x08000954       0x64 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x08000954                LiquidCrystal
- .text.print    0x080009b8       0x2a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x080009b8                print
+                0x08000960       0x64 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x08000960                LiquidCrystal
+ .text.print    0x080009c4       0x2a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x080009c4                print
  .text.createChar
-                0x080009e2       0x28 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
-                0x080009e2                createChar
- *fill*         0x08000a0a        0x2 
+                0x080009ee       0x28 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x080009ee                createChar
+ *fill*         0x08000a16        0x2 
  .text.Utils_GetCharacter
-                0x08000a0c       0x30 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
-                0x08000a0c                Utils_GetCharacter
+                0x08000a18       0x30 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
+                0x08000a18                Utils_GetCharacter
  .text.MX_GPIO_Init
-                0x08000a3c      0x124 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000a48      0x124 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
  .text.HAL_GPIO_EXTI_Callback
-                0x08000b60        0x8 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
-                0x08000b60                HAL_GPIO_EXTI_Callback
+                0x08000b6c        0x8 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000b6c                HAL_GPIO_EXTI_Callback
  .text.Error_Handler
-                0x08000b68        0x4 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
-                0x08000b68                Error_Handler
+                0x08000b74        0x4 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000b74                Error_Handler
  .text.MX_I2C1_Init
-                0x08000b6c       0x54 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000b78       0x54 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
  .text.MX_SPI1_Init
-                0x08000bc0       0x48 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000bcc       0x48 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
  .text.MX_USB_PCD_Init
-                0x08000c08       0x2c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000c14       0x2c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
  .text.MX_TIM2_Init
-                0x08000c34       0x6c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000c40       0x6c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
  .text.MX_USART1_UART_Init
-                0x08000ca0       0x38 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000cac       0x38 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
  .text.SystemClock_Config
-                0x08000cd8       0x98 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
-                0x08000cd8                SystemClock_Config
- .text.main     0x08000d70       0x34 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
-                0x08000d70                main
+                0x08000ce4       0x98 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000ce4                SystemClock_Config
+ .text.main     0x08000d7c       0x38 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x08000d7c                main
  .text.HAL_MspInit
-                0x08000da4       0x3c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x08000da4                HAL_MspInit
+                0x08000db4       0x3c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x08000db4                HAL_MspInit
  .text.HAL_I2C_MspInit
-                0x08000de0       0x6c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x08000de0                HAL_I2C_MspInit
+                0x08000df0       0x6c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x08000df0                HAL_I2C_MspInit
  .text.HAL_SPI_MspInit
-                0x08000e4c       0x68 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x08000e4c                HAL_SPI_MspInit
+                0x08000e5c       0x68 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x08000e5c                HAL_SPI_MspInit
  .text.HAL_TIM_Base_MspInit
-                0x08000eb4       0x3a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x08000eb4                HAL_TIM_Base_MspInit
- *fill*         0x08000eee        0x2 
+                0x08000ec4       0x3a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x08000ec4                HAL_TIM_Base_MspInit
+ *fill*         0x08000efe        0x2 
  .text.HAL_UART_MspInit
-                0x08000ef0       0x78 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x08000ef0                HAL_UART_MspInit
+                0x08000f00       0x78 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x08000f00                HAL_UART_MspInit
  .text.HAL_PCD_MspInit
-                0x08000f68       0x68 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
-                0x08000f68                HAL_PCD_MspInit
+                0x08000f78       0x68 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x08000f78                HAL_PCD_MspInit
  .text.render_board
-                0x08000fd0       0x38 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08000fd0                render_board
+                0x08000fe0       0x38 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08000fe0                render_board
  .text.onEveryOneSecond
-                0x08001008        0xc CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001008                onEveryOneSecond
+                0x08001018        0xc CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001018                onEveryOneSecond
  .text.NMI_Handler
-                0x08001014        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001014                NMI_Handler
+                0x08001024        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001024                NMI_Handler
  .text.HardFault_Handler
-                0x08001016        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001016                HardFault_Handler
+                0x08001026        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001026                HardFault_Handler
  .text.MemManage_Handler
-                0x08001018        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001018                MemManage_Handler
+                0x08001028        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001028                MemManage_Handler
  .text.BusFault_Handler
-                0x0800101a        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x0800101a                BusFault_Handler
+                0x0800102a        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x0800102a                BusFault_Handler
  .text.UsageFault_Handler
-                0x0800101c        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x0800101c                UsageFault_Handler
+                0x0800102c        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x0800102c                UsageFault_Handler
  .text.SVC_Handler
-                0x0800101e        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x0800101e                SVC_Handler
+                0x0800102e        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x0800102e                SVC_Handler
  .text.DebugMon_Handler
-                0x08001020        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001020                DebugMon_Handler
+                0x08001030        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001030                DebugMon_Handler
  .text.PendSV_Handler
-                0x08001022        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001022                PendSV_Handler
+                0x08001032        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001032                PendSV_Handler
  .text.SysTick_Handler
-                0x08001024        0x8 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001024                SysTick_Handler
+                0x08001034        0x8 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001034                SysTick_Handler
  .text.TIM2_IRQHandler
-                0x0800102c       0x2c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x0800102c                TIM2_IRQHandler
+                0x0800103c       0x2c CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x0800103c                TIM2_IRQHandler
  .text.USART1_IRQHandler
-                0x08001058       0x10 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001058                USART1_IRQHandler
+                0x08001068       0x10 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001068                USART1_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x08001068       0x24 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
-                0x08001068                EXTI15_10_IRQHandler
+                0x08001078       0x24 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x08001078                EXTI15_10_IRQHandler
  .text.SystemInit
-                0x0800108c        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
-                0x0800108c                SystemInit
- *fill*         0x0800108e        0x2 
+                0x0800109c        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
+                0x0800109c                SystemInit
+ *fill*         0x0800109e        0x2 
  .text.Reset_Handler
-                0x08001090       0x50 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
-                0x08001090                Reset_Handler
+                0x080010a0       0x50 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+                0x080010a0                Reset_Handler
  .text.Default_Handler
-                0x080010e0        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
-                0x080010e0                RTC_Alarm_IRQHandler
-                0x080010e0                TIM8_TRG_COM_IRQHandler
-                0x080010e0                TIM8_CC_IRQHandler
-                0x080010e0                TIM1_CC_IRQHandler
-                0x080010e0                USB_HP_IRQHandler
-                0x080010e0                PVD_IRQHandler
-                0x080010e0                TAMP_STAMP_IRQHandler
-                0x080010e0                EXTI3_IRQHandler
-                0x080010e0                USB_HP_CAN_TX_IRQHandler
-                0x080010e0                EXTI0_IRQHandler
-                0x080010e0                I2C2_EV_IRQHandler
-                0x080010e0                FPU_IRQHandler
-                0x080010e0                TIM1_UP_TIM16_IRQHandler
-                0x080010e0                ADC1_2_IRQHandler
-                0x080010e0                SPI1_IRQHandler
-                0x080010e0                CAN_SCE_IRQHandler
-                0x080010e0                TIM6_DAC_IRQHandler
-                0x080010e0                TIM8_UP_IRQHandler
-                0x080010e0                DMA2_Channel2_IRQHandler
-                0x080010e0                DMA1_Channel4_IRQHandler
-                0x080010e0                USART3_IRQHandler
-                0x080010e0                DMA1_Channel7_IRQHandler
-                0x080010e0                UART5_IRQHandler
-                0x080010e0                ADC3_IRQHandler
-                0x080010e0                TIM4_IRQHandler
-                0x080010e0                CAN_RX1_IRQHandler
-                0x080010e0                DMA2_Channel1_IRQHandler
-                0x080010e0                I2C1_EV_IRQHandler
-                0x080010e0                DMA1_Channel6_IRQHandler
-                0x080010e0                UART4_IRQHandler
-                0x080010e0                DMA2_Channel4_IRQHandler
-                0x080010e0                TIM3_IRQHandler
-                0x080010e0                RCC_IRQHandler
-                0x080010e0                DMA1_Channel1_IRQHandler
-                0x080010e0                Default_Handler
-                0x080010e0                USBWakeUp_RMP_IRQHandler
-                0x080010e0                TIM7_IRQHandler
-                0x080010e0                EXTI9_5_IRQHandler
-                0x080010e0                RTC_WKUP_IRQHandler
-                0x080010e0                SPI2_IRQHandler
-                0x080010e0                USB_LP_CAN_RX0_IRQHandler
-                0x080010e0                DMA2_Channel5_IRQHandler
-                0x080010e0                DMA1_Channel5_IRQHandler
-                0x080010e0                USB_LP_IRQHandler
-                0x080010e0                EXTI4_IRQHandler
-                0x080010e0                TIM1_TRG_COM_TIM17_IRQHandler
-                0x080010e0                DMA1_Channel3_IRQHandler
-                0x080010e0                ADC4_IRQHandler
-                0x080010e0                WWDG_IRQHandler
-                0x080010e0                COMP7_IRQHandler
-                0x080010e0                COMP1_2_3_IRQHandler
-                0x080010e0                EXTI1_IRQHandler
-                0x080010e0                USART2_IRQHandler
-                0x080010e0                COMP4_5_6_IRQHandler
-                0x080010e0                I2C2_ER_IRQHandler
-                0x080010e0                DMA1_Channel2_IRQHandler
-                0x080010e0                TIM8_BRK_IRQHandler
-                0x080010e0                FLASH_IRQHandler
-                0x080010e0                SPI3_IRQHandler
-                0x080010e0                I2C1_ER_IRQHandler
-                0x080010e0                USBWakeUp_IRQHandler
-                0x080010e0                DMA2_Channel3_IRQHandler
-                0x080010e0                EXTI2_TSC_IRQHandler
-                0x080010e0                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x080010e2        0x2 
+                0x080010f0        0x2 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+                0x080010f0                RTC_Alarm_IRQHandler
+                0x080010f0                TIM8_TRG_COM_IRQHandler
+                0x080010f0                TIM8_CC_IRQHandler
+                0x080010f0                TIM1_CC_IRQHandler
+                0x080010f0                USB_HP_IRQHandler
+                0x080010f0                PVD_IRQHandler
+                0x080010f0                TAMP_STAMP_IRQHandler
+                0x080010f0                EXTI3_IRQHandler
+                0x080010f0                USB_HP_CAN_TX_IRQHandler
+                0x080010f0                EXTI0_IRQHandler
+                0x080010f0                I2C2_EV_IRQHandler
+                0x080010f0                FPU_IRQHandler
+                0x080010f0                TIM1_UP_TIM16_IRQHandler
+                0x080010f0                ADC1_2_IRQHandler
+                0x080010f0                SPI1_IRQHandler
+                0x080010f0                CAN_SCE_IRQHandler
+                0x080010f0                TIM6_DAC_IRQHandler
+                0x080010f0                TIM8_UP_IRQHandler
+                0x080010f0                DMA2_Channel2_IRQHandler
+                0x080010f0                DMA1_Channel4_IRQHandler
+                0x080010f0                USART3_IRQHandler
+                0x080010f0                DMA1_Channel7_IRQHandler
+                0x080010f0                UART5_IRQHandler
+                0x080010f0                ADC3_IRQHandler
+                0x080010f0                TIM4_IRQHandler
+                0x080010f0                CAN_RX1_IRQHandler
+                0x080010f0                DMA2_Channel1_IRQHandler
+                0x080010f0                I2C1_EV_IRQHandler
+                0x080010f0                DMA1_Channel6_IRQHandler
+                0x080010f0                UART4_IRQHandler
+                0x080010f0                DMA2_Channel4_IRQHandler
+                0x080010f0                TIM3_IRQHandler
+                0x080010f0                RCC_IRQHandler
+                0x080010f0                DMA1_Channel1_IRQHandler
+                0x080010f0                Default_Handler
+                0x080010f0                USBWakeUp_RMP_IRQHandler
+                0x080010f0                TIM7_IRQHandler
+                0x080010f0                EXTI9_5_IRQHandler
+                0x080010f0                RTC_WKUP_IRQHandler
+                0x080010f0                SPI2_IRQHandler
+                0x080010f0                USB_LP_CAN_RX0_IRQHandler
+                0x080010f0                DMA2_Channel5_IRQHandler
+                0x080010f0                DMA1_Channel5_IRQHandler
+                0x080010f0                USB_LP_IRQHandler
+                0x080010f0                EXTI4_IRQHandler
+                0x080010f0                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080010f0                DMA1_Channel3_IRQHandler
+                0x080010f0                ADC4_IRQHandler
+                0x080010f0                WWDG_IRQHandler
+                0x080010f0                COMP7_IRQHandler
+                0x080010f0                COMP1_2_3_IRQHandler
+                0x080010f0                EXTI1_IRQHandler
+                0x080010f0                USART2_IRQHandler
+                0x080010f0                COMP4_5_6_IRQHandler
+                0x080010f0                I2C2_ER_IRQHandler
+                0x080010f0                DMA1_Channel2_IRQHandler
+                0x080010f0                TIM8_BRK_IRQHandler
+                0x080010f0                FLASH_IRQHandler
+                0x080010f0                SPI3_IRQHandler
+                0x080010f0                I2C1_ER_IRQHandler
+                0x080010f0                USBWakeUp_IRQHandler
+                0x080010f0                DMA2_Channel3_IRQHandler
+                0x080010f0                EXTI2_TSC_IRQHandler
+                0x080010f0                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x080010f2        0x2 
  .text.HAL_InitTick
-                0x080010e4       0x4c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x080010e4                HAL_InitTick
+                0x080010f4       0x4c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x080010f4                HAL_InitTick
  .text.HAL_Init
-                0x08001130       0x24 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x08001130                HAL_Init
+                0x08001140       0x24 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x08001140                HAL_Init
  .text.HAL_IncTick
-                0x08001154       0x18 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x08001154                HAL_IncTick
+                0x08001164       0x18 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x08001164                HAL_IncTick
  .text.HAL_GetTick
-                0x0800116c        0xc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x0800116c                HAL_GetTick
+                0x0800117c        0xc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x0800117c                HAL_GetTick
  .text.HAL_Delay
-                0x08001178       0x28 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
-                0x08001178                HAL_Delay
+                0x08001188       0x28 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x08001188                HAL_Delay
  .text.__NVIC_SetPriority
-                0x080011a0       0x28 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x080011b0       0x28 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x080011c8       0x3e CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- *fill*         0x08001206        0x2 
+                0x080011d8       0x3e CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ *fill*         0x08001216        0x2 
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08001208       0x24 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x08001208                HAL_NVIC_SetPriorityGrouping
+                0x08001218       0x24 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x08001218                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0800122c       0x20 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x0800122c                HAL_NVIC_SetPriority
+                0x0800123c       0x20 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x0800123c                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0800124c       0x1c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x0800124c                HAL_NVIC_EnableIRQ
+                0x0800125c       0x1c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x0800125c                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08001268       0x28 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
-                0x08001268                HAL_SYSTICK_Config
+                0x08001278       0x28 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x08001278                HAL_SYSTICK_Config
  .text.HAL_DMA_Abort
-                0x08001290       0x44 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
-                0x08001290                HAL_DMA_Abort
+                0x080012a0       0x44 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+                0x080012a0                HAL_DMA_Abort
  .text.HAL_DMA_Abort_IT
-                0x080012d4       0x4a CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
-                0x080012d4                HAL_DMA_Abort_IT
- *fill*         0x0800131e        0x2 
+                0x080012e4       0x4a CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+                0x080012e4                HAL_DMA_Abort_IT
+ *fill*         0x0800132e        0x2 
  .text.HAL_GPIO_Init
-                0x08001320      0x1d0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x08001320                HAL_GPIO_Init
+                0x08001330      0x1d0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x08001330                HAL_GPIO_Init
  .text.HAL_GPIO_ReadPin
-                0x080014f0        0xe CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x080014f0                HAL_GPIO_ReadPin
+                0x08001500        0xe CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x08001500                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x080014fe        0xa CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x080014fe                HAL_GPIO_WritePin
+                0x0800150e        0xa CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x0800150e                HAL_GPIO_WritePin
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x08001508       0x1c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
-                0x08001508                HAL_GPIO_EXTI_IRQHandler
+                0x08001518       0x1c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x08001518                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_I2C_Init
-                0x08001524       0xbc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
-                0x08001524                HAL_I2C_Init
+                0x08001534       0xbc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x08001534                HAL_I2C_Init
  .text.HAL_I2CEx_ConfigAnalogFilter
-                0x080015e0       0x5c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
-                0x080015e0                HAL_I2CEx_ConfigAnalogFilter
+                0x080015f0       0x5c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+                0x080015f0                HAL_I2CEx_ConfigAnalogFilter
  .text.HAL_I2CEx_ConfigDigitalFilter
-                0x0800163c       0x58 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
-                0x0800163c                HAL_I2CEx_ConfigDigitalFilter
+                0x0800164c       0x58 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+                0x0800164c                HAL_I2CEx_ConfigDigitalFilter
  .text.HAL_PCD_Init
-                0x08001694       0xd2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj
-                0x08001694                HAL_PCD_Init
- *fill*         0x08001766        0x2 
+                0x080016a4       0xd2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj
+                0x080016a4                HAL_PCD_Init
+ *fill*         0x08001776        0x2 
  .text.HAL_RCC_OscConfig
-                0x08001768      0x630 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001768                HAL_RCC_OscConfig
+                0x08001778      0x630 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001778                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001d98       0x70 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001d98                HAL_RCC_GetSysClockFreq
+                0x08001da8       0x70 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001da8                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08001e08      0x1a8 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001e08                HAL_RCC_ClockConfig
+                0x08001e18      0x1a8 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001e18                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08001fb0        0xc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001fb0                HAL_RCC_GetHCLKFreq
+                0x08001fc0        0xc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001fc0                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08001fbc       0x2c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001fbc                HAL_RCC_GetPCLK1Freq
+                0x08001fcc       0x2c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001fcc                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08001fe8       0x2c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08001fe8                HAL_RCC_GetPCLK2Freq
+                0x08001ff8       0x2c CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08001ff8                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x08002014      0x260 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
-                0x08002014                HAL_RCCEx_PeriphCLKConfig
+                0x08002024      0x260 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+                0x08002024                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_SPI_Init
-                0x08002274       0xe8 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
-                0x08002274                HAL_SPI_Init
+                0x08002284       0xe8 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+                0x08002284                HAL_SPI_Init
  .text.TIM_TI1_ConfigInputStage
-                0x0800235c       0x24 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x0800236c       0x24 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x08002380       0x26 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002390       0x26 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x080023a6       0x10 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- *fill*         0x080023b6        0x2 
+                0x080023b6       0x10 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ *fill*         0x080023c6        0x2 
  .text.HAL_TIM_Base_Start_IT
-                0x080023b8       0x84 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x080023b8                HAL_TIM_Base_Start_IT
+                0x080023c8       0x84 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x080023c8                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_PeriodElapsedCallback
-                0x0800243c        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x0800243c                HAL_TIM_PeriodElapsedCallback
+                0x0800244c        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x0800244c                HAL_TIM_PeriodElapsedCallback
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x0800243e        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x0800243e                HAL_TIM_OC_DelayElapsedCallback
+                0x0800244e        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x0800244e                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x08002440        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002440                HAL_TIM_IC_CaptureCallback
+                0x08002450        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002450                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x08002442        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002442                HAL_TIM_PWM_PulseFinishedCallback
+                0x08002452        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002452                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x08002444        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002444                HAL_TIM_TriggerCallback
+                0x08002454        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002454                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x08002446      0x19a CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002446                HAL_TIM_IRQHandler
+                0x08002456      0x19a CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002456                HAL_TIM_IRQHandler
  .text.TIM_Base_SetConfig
-                0x080025e0       0xb8 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x080025e0                TIM_Base_SetConfig
+                0x080025f0       0xb8 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x080025f0                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x08002698       0x60 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002698                HAL_TIM_Base_Init
+                0x080026a8       0x60 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x080026a8                HAL_TIM_Base_Init
  .text.TIM_ETR_SetConfig
-                0x080026f8       0x18 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x080026f8                TIM_ETR_SetConfig
+                0x08002708       0x18 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002708                TIM_ETR_SetConfig
  .text.HAL_TIM_ConfigClockSource
-                0x08002710      0x100 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
-                0x08002710                HAL_TIM_ConfigClockSource
+                0x08002720      0x100 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x08002720                HAL_TIM_ConfigClockSource
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x08002810       0x90 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x08002810                HAL_TIMEx_MasterConfigSynchronization
+                0x08002820       0x90 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x08002820                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutCallback
-                0x080028a0        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x080028a0                HAL_TIMEx_CommutCallback
+                0x080028b0        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x080028b0                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x080028a2        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x080028a2                HAL_TIMEx_BreakCallback
+                0x080028b2        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x080028b2                HAL_TIMEx_BreakCallback
  .text.HAL_TIMEx_Break2Callback
-                0x080028a4        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
-                0x080028a4                HAL_TIMEx_Break2Callback
+                0x080028b4        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x080028b4                HAL_TIMEx_Break2Callback
  .text.UART_EndRxTransfer
-                0x080028a6       0x50 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x080028b6       0x50 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
  .text.HAL_UART_TxCpltCallback
-                0x080028f6        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x080028f6                HAL_UART_TxCpltCallback
+                0x08002906        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002906                HAL_UART_TxCpltCallback
  .text.UART_EndTransmit_IT
-                0x080028f8       0x22 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002908       0x22 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
  .text.HAL_UART_ErrorCallback
-                0x0800291a        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x0800291a                HAL_UART_ErrorCallback
+                0x0800292a        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x0800292a                HAL_UART_ErrorCallback
  .text.UART_DMAAbortOnError
-                0x0800291c       0x14 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x0800292c       0x14 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
-                0x08002930        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08002930                HAL_UARTEx_RxEventCallback
- *fill*         0x08002932        0x2 
+                0x08002940        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002940                HAL_UARTEx_RxEventCallback
+ *fill*         0x08002942        0x2 
  .text.HAL_UART_IRQHandler
-                0x08002934      0x2dc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08002934                HAL_UART_IRQHandler
+                0x08002944      0x2dc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002944                HAL_UART_IRQHandler
  .text.UART_SetConfig
-                0x08002c10      0x250 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08002c10                UART_SetConfig
+                0x08002c20      0x250 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002c20                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x08002e60       0xca CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08002e60                UART_AdvFeatureConfig
+                0x08002e70       0xca CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002e70                UART_AdvFeatureConfig
  .text.UART_WaitOnFlagUntilTimeout
-                0x08002f2a       0xd0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08002f2a                UART_WaitOnFlagUntilTimeout
+                0x08002f3a       0xd0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x08002f3a                UART_WaitOnFlagUntilTimeout
  .text.UART_CheckIdleState
-                0x08002ffa       0x70 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x08002ffa                UART_CheckIdleState
+                0x0800300a       0x70 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x0800300a                UART_CheckIdleState
  .text.HAL_UART_Init
-                0x0800306a       0x62 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
-                0x0800306a                HAL_UART_Init
+                0x0800307a       0x62 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x0800307a                HAL_UART_Init
  .text.HAL_UARTEx_WakeupCallback
-                0x080030cc        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
-                0x080030cc                HAL_UARTEx_WakeupCallback
+                0x080030dc        0x2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
+                0x080030dc                HAL_UARTEx_WakeupCallback
  .text.USB_DisableGlobalInt
-                0x080030ce       0x14 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
-                0x080030ce                USB_DisableGlobalInt
+                0x080030de       0x14 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
+                0x080030de                USB_DisableGlobalInt
  .text.USB_DevInit
-                0x080030e2       0x22 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
-                0x080030e2                USB_DevInit
- .text.memset   0x08003104       0xa4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
-                0x08003104                memset
+                0x080030f2       0x22 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
+                0x080030f2                USB_DevInit
+ .text.memset   0x08003114       0xa4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-memset.o)
+                0x08003114                memset
  .text.__libc_init_array
-                0x080031a8       0x50 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-init.o)
-                0x080031a8                __libc_init_array
+                0x080031b8       0x50 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-init.o)
+                0x080031b8                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x080031f8        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x080031f8                __retarget_lock_acquire_recursive
+                0x08003208        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x08003208                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x080031fc        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
-                0x080031fc                __retarget_lock_release_recursive
+                0x0800320c        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-lock.o)
+                0x0800320c                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x08003200       0x14 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x08003214        0xc c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-atexit.o)
-                0x08003214                atexit
+                0x08003210       0x14 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x08003224        0xc c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-atexit.o)
+                0x08003224                atexit
  .text.__libc_fini_array
-                0x08003220       0x28 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-fini.o)
-                0x08003220                __libc_fini_array
+                0x08003230       0x28 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-fini.o)
+                0x08003230                __libc_fini_array
  .text.__register_exitproc
-                0x08003248       0x88 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
-                0x08003248                __register_exitproc
+                0x08003258       0x88 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__atexit.o)
+                0x08003258                __register_exitproc
  *(.glue_7)
- .glue_7        0x080032d0        0x0 linker stubs
+ .glue_7        0x080032e0        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080032d0        0x0 linker stubs
+ .glue_7t       0x080032e0        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080032d0        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x080032e0        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x080032d0        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crti.o
-                0x080032d0                _init
- .init          0x080032d4        0x8 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x080032e0        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crti.o
+                0x080032e0                _init
+ .init          0x080032e4        0x8 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x080032dc        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crti.o
-                0x080032dc                _fini
- .fini          0x080032e0        0x8 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtn.o
-                0x080032e8                . = ALIGN (0x4)
-                0x080032e8                _etext = .
+ .fini          0x080032ec        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crti.o
+                0x080032ec                _fini
+ .fini          0x080032f0        0x8 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtn.o
+                0x080032f8                . = ALIGN (0x4)
+                0x080032f8                _etext = .
 
-.vfp11_veneer   0x080032e8        0x0
- .vfp11_veneer  0x080032e8        0x0 linker stubs
+.vfp11_veneer   0x080032f8        0x0
+ .vfp11_veneer  0x080032f8        0x0 linker stubs
 
-.v4_bx          0x080032e8        0x0
- .v4_bx         0x080032e8        0x0 linker stubs
+.v4_bx          0x080032f8        0x0
+ .v4_bx         0x080032f8        0x0 linker stubs
 
-.iplt           0x080032e8        0x0
- .iplt          0x080032e8        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x080032f8        0x0
+ .iplt          0x080032f8        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x080032e8       0x58
-                0x080032e8                . = ALIGN (0x4)
+.rodata         0x080032f8       0x58
+                0x080032f8                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.Keypad_OnInterrupt.str1.4
-                0x080032e8        0xe CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
- *fill*         0x080032f6        0x2 
+                0x080032f8        0xe CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
+ *fill*         0x08003306        0x2 
  .rodata.Utils_GetCharacter.str1.4
-                0x080032f8        0xd CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
- *fill*         0x08003305        0x3 
+                0x08003308        0xd CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
+ *fill*         0x08003315        0x3 
  .rodata.APBPrescTable
-                0x08003308        0x8 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
-                0x08003308                APBPrescTable
+                0x08003318        0x8 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
+                0x08003318                APBPrescTable
  .rodata.AHBPrescTable
-                0x08003310       0x10 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
-                0x08003310                AHBPrescTable
+                0x08003320       0x10 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
+                0x08003320                AHBPrescTable
  .rodata.aPredivFactorTable
-                0x08003320       0x10 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08003320                aPredivFactorTable
- .rodata.aPLLMULFactorTable
                 0x08003330       0x10 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
-                0x08003330                aPLLMULFactorTable
-                0x08003340                . = ALIGN (0x4)
+                0x08003330                aPredivFactorTable
+ .rodata.aPLLMULFactorTable
+                0x08003340       0x10 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x08003340                aPLLMULFactorTable
+                0x08003350                . = ALIGN (0x4)
 
-.rel.dyn        0x08003340        0x0
- .rel.iplt      0x08003340        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x08003350        0x0
+ .rel.iplt      0x08003350        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ARM.extab      0x08003340        0x0
-                0x08003340                . = ALIGN (0x4)
+.ARM.extab      0x08003350        0x0
+                0x08003350                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08003340                . = ALIGN (0x4)
+                0x08003350                . = ALIGN (0x4)
 
-.ARM            0x08003340        0x0
-                0x08003340                . = ALIGN (0x4)
-                0x08003340                __exidx_start = .
+.ARM            0x08003350        0x0
+                0x08003350                . = ALIGN (0x4)
+                0x08003350                __exidx_start = .
  *(.ARM.exidx*)
-                0x08003340                __exidx_end = .
-                0x08003340                . = ALIGN (0x4)
+                0x08003350                __exidx_end = .
+                0x08003350                . = ALIGN (0x4)
 
-.preinit_array  0x08003340        0x0
-                0x08003340                . = ALIGN (0x4)
-                0x08003340                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08003350        0x0
+                0x08003350                . = ALIGN (0x4)
+                0x08003350                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08003340                PROVIDE (__preinit_array_end = .)
-                0x08003340                . = ALIGN (0x4)
+                0x08003350                PROVIDE (__preinit_array_end = .)
+                0x08003350                . = ALIGN (0x4)
 
-.init_array     0x08003340        0x8
-                0x08003340                . = ALIGN (0x4)
-                0x08003340                PROVIDE (__init_array_start = .)
+.init_array     0x08003350        0x8
+                0x08003350                . = ALIGN (0x4)
+                0x08003350                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08003340        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x08003350        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08003344        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08003348                PROVIDE (__init_array_end = .)
-                0x08003348                . = ALIGN (0x4)
+ .init_array    0x08003354        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08003358                PROVIDE (__init_array_end = .)
+                0x08003358                . = ALIGN (0x4)
 
-.fini_array     0x08003348        0x4
-                0x08003348                . = ALIGN (0x4)
-                0x08003348                PROVIDE (__fini_array_start = .)
+.fini_array     0x08003358        0x4
+                0x08003358                . = ALIGN (0x4)
+                0x08003358                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08003348        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800334c                PROVIDE (__fini_array_end = .)
-                0x0800334c                . = ALIGN (0x4)
-                0x0800334c                _sidata = LOADADDR (.data)
+ .fini_array    0x08003358        0x4 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0800335c                PROVIDE (__fini_array_end = .)
+                0x0800335c                . = ALIGN (0x4)
+                0x0800335c                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x17c load address 0x0800334c
+.data           0x20000000      0x17c load address 0x0800335c
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -2364,19 +2365,19 @@ LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
  *(.RamFunc*)
                 0x2000017c                . = ALIGN (0x4)
                 0x2000017c                _edata = .
-                0x080034c8                _siccmram = LOADADDR (.ccmram)
+                0x080034d8                _siccmram = LOADADDR (.ccmram)
 
 .tm_clone_table
-                0x2000017c        0x0 load address 0x080034c8
+                0x2000017c        0x0 load address 0x080034d8
  .tm_clone_table
                 0x2000017c        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
  .tm_clone_table
                 0x2000017c        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtend.o
 
-.igot.plt       0x2000017c        0x0 load address 0x080034c8
+.igot.plt       0x2000017c        0x0 load address 0x080034d8
  .igot.plt      0x2000017c        0x0 c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x080034c8
+.ccmram         0x10000000        0x0 load address 0x080034d8
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sccmram = .
  *(.ccmram)
@@ -2568,7 +2569,7 @@ LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
 LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libm.a
 LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x1fbfb
+.debug_info     0x00000000    0x1fc11
  .debug_info    0x00000000      0x16f CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
  .debug_info    0x0000016f       0x81 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj
  .debug_info    0x000001f0      0x305 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj
@@ -2576,26 +2577,26 @@ LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
  .debug_info    0x00000896      0x2db CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
  .debug_info    0x00000b71     0x128d CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
  .debug_info    0x00001dfe       0xe2 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
- .debug_info    0x00001ee0     0x220a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
- .debug_info    0x000040ea     0x1c33 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_info    0x00005d1d      0xd03 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_info    0x00006a20      0x246 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_info    0x00006c66       0x2e CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
- .debug_info    0x00006c94      0x872 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_info    0x00007506      0xedb CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_info    0x000083e1      0x809 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
- .debug_info    0x00008bea      0x630 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_info    0x0000921a     0x3d99 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
- .debug_info    0x0000cfb3      0x827 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
- .debug_info    0x0000d7da     0x1b65 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj
- .debug_info    0x0000f33f     0x15b8 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_info    0x000108f7      0x76b CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_info    0x00011062     0x2072 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
- .debug_info    0x000130d4     0x3c25 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_info    0x00016cf9     0x1b31 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_info    0x0001882a     0x4d33 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_info    0x0001d55d      0xe4b CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
- .debug_info    0x0001e3a8     0x1853 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
+ .debug_info    0x00001ee0     0x2220 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00004100     0x1c33 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_info    0x00005d33      0xd03 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_info    0x00006a36      0x246 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_info    0x00006c7c       0x2e CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+ .debug_info    0x00006caa      0x872 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_info    0x0000751c      0xedb CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_info    0x000083f7      0x809 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+ .debug_info    0x00008c00      0x630 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_info    0x00009230     0x3d99 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+ .debug_info    0x0000cfc9      0x827 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+ .debug_info    0x0000d7f0     0x1b65 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj
+ .debug_info    0x0000f355     0x15b8 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_info    0x0001090d      0x76b CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_info    0x00011078     0x2072 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+ .debug_info    0x000130ea     0x3c25 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_info    0x00016d0f     0x1b31 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_info    0x00018840     0x4d33 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_info    0x0001d573      0xe4b CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
+ .debug_info    0x0001e3be     0x1853 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
 
 .debug_abbrev   0x00000000     0x39c4
  .debug_abbrev  0x00000000       0xe9 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
@@ -2732,88 +2733,88 @@ LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
                 0x000014f0       0xb0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
 
 .debug_rnglists
-                0x00000000     0x1274
+                0x00000000     0x126d
  .debug_rnglists
-                0x00000000       0x64 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
+                0x00000000       0x5d CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
  .debug_rnglists
-                0x00000064       0x20 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj
+                0x0000005d       0x20 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj
  .debug_rnglists
-                0x00000084       0x20 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
+                0x0000007d       0x20 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
  .debug_rnglists
-                0x000000a4       0x13 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
+                0x0000009d       0x13 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
  .debug_rnglists
-                0x000000b7       0xb7 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+                0x000000b0       0xb7 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
  .debug_rnglists
-                0x0000016e       0x19 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
+                0x00000167       0x19 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
  .debug_rnglists
-                0x00000187       0x51 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+                0x00000180       0x51 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x000001d8       0x4f CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+                0x000001d1       0x4f CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
  .debug_rnglists
-                0x00000227       0x7f CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+                0x00000220       0x7f CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
  .debug_rnglists
-                0x000002a6       0x1a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
+                0x0000029f       0x1a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
  .debug_rnglists
-                0x000002c0       0x19 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+                0x000002b9       0x19 CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
  .debug_rnglists
-                0x000002d9       0xa3 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+                0x000002d2       0xa3 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
  .debug_rnglists
-                0x0000037c       0x9d CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+                0x00000375       0x9d CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
  .debug_rnglists
-                0x00000419       0x63 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+                0x00000412       0x63 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
  .debug_rnglists
-                0x0000047c       0x3f CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+                0x00000475       0x3f CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
  .debug_rnglists
-                0x000004bb      0x20d CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+                0x000004b4      0x20d CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
  .debug_rnglists
-                0x000006c8       0x31 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+                0x000006c1       0x31 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
  .debug_rnglists
-                0x000006f9      0x166 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj
+                0x000006f2      0x166 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj
  .debug_rnglists
-                0x0000085f       0x79 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+                0x00000858       0x79 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
  .debug_rnglists
-                0x000008d8       0x28 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+                0x000008d1       0x28 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
  .debug_rnglists
-                0x00000900      0x171 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+                0x000008f9      0x171 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
  .debug_rnglists
-                0x00000a71      0x312 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+                0x00000a6a      0x312 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
  .debug_rnglists
-                0x00000d83      0x128 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+                0x00000d7c      0x128 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
  .debug_rnglists
-                0x00000eab      0x1bc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+                0x00000ea4      0x1bc CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
  .debug_rnglists
-                0x00001067       0x4b CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
+                0x00001060       0x4b CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
  .debug_rnglists
-                0x000010b2      0x1c2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
+                0x000010ab      0x1c2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
 
-.debug_line     0x00000000    0x1d959
- .debug_line    0x00000000      0x18f CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
- .debug_line    0x0000018f       0xa9 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj
- .debug_line    0x00000238      0x28d CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj
- .debug_line    0x000004c5      0x2b7 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
- .debug_line    0x0000077c      0x1c7 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
- .debug_line    0x00000943      0xa08 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
- .debug_line    0x0000134b       0x9e CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
- .debug_line    0x000013e9      0x8aa CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00001c93      0x58a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_line    0x0000221d      0x537 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_line    0x00002754      0x248 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_line    0x0000299c       0x7a CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
- .debug_line    0x00002a16      0x5b0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_line    0x00002fc6      0x86d CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_line    0x00003833      0xa7a CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
- .debug_line    0x000042ad      0x6e3 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_line    0x00004990     0x49f0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
- .debug_line    0x00009380      0x556 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
- .debug_line    0x000098d6     0x1863 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj
- .debug_line    0x0000b139     0x1237 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_line    0x0000c370      0xb69 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_line    0x0000ced9     0x29c2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
- .debug_line    0x0000f89b     0x4ef3 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_line    0x0001478e     0x1e63 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_line    0x000165f1     0x50ea CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_line    0x0001b6db      0xa3e CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
- .debug_line    0x0001c119     0x1840 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
+.debug_line     0x00000000    0x1d932
+ .debug_line    0x00000000      0x16b CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
+ .debug_line    0x0000016b       0xa9 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GlobalVariables.c.obj
+ .debug_line    0x00000214      0x28d CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj
+ .debug_line    0x000004a1      0x2b7 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Keypad.c.obj
+ .debug_line    0x00000758      0x1c7 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj
+ .debug_line    0x0000091f      0xa08 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj
+ .debug_line    0x00001327       0x9e CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
+ .debug_line    0x000013c5      0x8a7 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00001c6c      0x58a CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_line    0x000021f6      0x537 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_line    0x0000272d      0x248 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_line    0x00002975       0x7a CMakeFiles/SpaceInvaders.elf.dir/Core/Startup/startup_stm32f303vctx.s.obj
+ .debug_line    0x000029ef      0x5b0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_line    0x00002f9f      0x86d CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_line    0x0000380c      0xa7a CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj
+ .debug_line    0x00004286      0x6e3 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_line    0x00004969     0x49f0 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj
+ .debug_line    0x00009359      0x556 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj
+ .debug_line    0x000098af     0x1863 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pcd.c.obj
+ .debug_line    0x0000b112     0x1237 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_line    0x0000c349      0xb69 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000ceb2     0x29c2 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+ .debug_line    0x0000f874     0x4ef3 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_line    0x00014767     0x1e63 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_line    0x000165ca     0x50ea CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_line    0x0001b6b4      0xa3e CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
+ .debug_line    0x0001c0f2     0x1840 CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
 
 .debug_str      0x00000000     0x642b
  .debug_str     0x00000000      0x1f6 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/GameBoard.c.obj
@@ -2831,7 +2832,7 @@ LOAD c:/progra~2/armgnu~1/12dbab~1.2re/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
  .debug_str     0x000007fe       0x51 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj
                                 0x1f9 (size before relaxing)
  .debug_str     0x0000084f     0x175f CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj
-                               0x1b44 (size before relaxing)
+                               0x1b50 (size before relaxing)
  .debug_str     0x00001fae      0x166 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
                                0x16b9 (size before relaxing)
  .debug_str     0x00002114      0x1c5 CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_it.c.obj
