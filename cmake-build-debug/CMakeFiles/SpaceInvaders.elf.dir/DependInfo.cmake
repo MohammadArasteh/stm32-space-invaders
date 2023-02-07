@@ -35,6 +35,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/HomeScreen.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/HomeScreen.c.obj.d"
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/LCD.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj.d"
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/LiquidCrystal.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj.d"
+  "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/UART.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/UART.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/UART.c.obj.d"
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/Utils.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj.d"
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/main.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj.d"
   "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Src/stm32f3xx_hal_msp.c" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj" "gcc" "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj.d"

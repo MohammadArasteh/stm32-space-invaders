@@ -55,7 +55,7 @@ add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xC)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*")
 
-set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F303VCTX_FLASH.ld Core/Inc/types.h Core/Src/GameBoard.c Core/Src/HomeScreen.c Core/Inc/HomeScreen.h Core/Src/Utils.c Core/Inc/Utils.h Core/Src/GlobalVariables.c Core/Src/LCD.c Core/Inc/LCD.h)
+set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F303VCTX_FLASH.ld Core/Inc/types.h Core/Src/GameBoard.c Core/Src/HomeScreen.c Core/Inc/HomeScreen.h Core/Src/Utils.c Core/Inc/Utils.h Core/Src/GlobalVariables.c Core/Src/LCD.c Core/Inc/LCD.h Core/Src/UART.c Core/Inc/UART.h)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
 add_link_options(-mcpu=cortex-m4 -mthumb -mthumb-interwork)

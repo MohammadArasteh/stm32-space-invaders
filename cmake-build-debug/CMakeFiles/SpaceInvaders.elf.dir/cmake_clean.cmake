@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LCD.c.obj.d"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.obj.d"
+  "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/UART.c.obj"
+  "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/UART.c.obj.d"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/Utils.c.obj.d"
   "CMakeFiles/SpaceInvaders.elf.dir/Core/Src/main.c.obj"

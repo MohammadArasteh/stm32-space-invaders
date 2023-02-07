@@ -248,6 +248,30 @@ Core/Src/LiquidCrystal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/LiquidCrystal.c.s
 .PHONY : Core/Src/LiquidCrystal.c.s
 
+Core/Src/UART.obj: Core/Src/UART.c.obj
+.PHONY : Core/Src/UART.obj
+
+# target to build an object file
+Core/Src/UART.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/UART.c.obj
+.PHONY : Core/Src/UART.c.obj
+
+Core/Src/UART.i: Core/Src/UART.c.i
+.PHONY : Core/Src/UART.i
+
+# target to preprocess a source file
+Core/Src/UART.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/UART.c.i
+.PHONY : Core/Src/UART.c.i
+
+Core/Src/UART.s: Core/Src/UART.c.s
+.PHONY : Core/Src/UART.s
+
+# target to generate assembly for a file
+Core/Src/UART.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Core/Src/UART.c.s
+.PHONY : Core/Src/UART.c.s
+
 Core/Src/Utils.obj: Core/Src/Utils.c.obj
 .PHONY : Core/Src/Utils.obj
 
@@ -976,6 +1000,9 @@ help:
 	@echo ... Core/Src/LiquidCrystal.obj
 	@echo ... Core/Src/LiquidCrystal.i
 	@echo ... Core/Src/LiquidCrystal.s
+	@echo ... Core/Src/UART.obj
+	@echo ... Core/Src/UART.i
+	@echo ... Core/Src/UART.s
 	@echo ... Core/Src/Utils.obj
 	@echo ... Core/Src/Utils.i
 	@echo ... Core/Src/Utils.s
