@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <string.h>
 #include "LiquidCrystal.h"
 /* USER CODE END Includes */
 
@@ -50,7 +51,17 @@ UART_HandleTypeDef huart1;
 PCD_HandleTypeDef hpcd_USB_FS;
 
 /* USER CODE BEGIN PV */
+char uart_input[50] = {0};
+int uart_input_index = 0;
+uint8_t uart_input_char[1] = {0};
 
+const int ROW1 = GPIO_PIN_11;
+const int COLUMN1 = GPIO_PIN_12;
+const int COLUMN2 = GPIO_PIN_13;
+const int COLUMN3 = GPIO_PIN_14;
+const int COLUMN4 = GPIO_PIN_15;
+unsigned long last_debounce_time = 0;
+unsigned long current_time = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -62,18 +73,28 @@ static void MX_USB_PCD_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+void printUART(char *string);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-const int ROW1 = GPIO_PIN_11;
-const int COLUMN1 = GPIO_PIN_12;
-const int COLUMN2 = GPIO_PIN_13;
-const int COLUMN3 = GPIO_PIN_14;
-const int COLUMN4 = GPIO_PIN_15;
-unsigned long last_debounce_time = 0;
-unsigned long current_time = 0;
+void printUART(char *string) {
+  HAL_UART_Transmit(&huart1, (uint8_t *)string, strlen(string), 1000);
+}
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+  if (uart_input_char[0] != '\n') {
+    uart_input[uart_input_index++] = uart_input_char[0];
+  } else {
+    uart_input[uart_input_index] = '\0';
+    uart_input_index = 0;
+
+    // uart input is stored at uart_input variable. use it
+  }
+  HAL_UART_Receive_IT(&huart1, uart_input_char, 1);
+}
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     current_time = HAL_GetTick();
