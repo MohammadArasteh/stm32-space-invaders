@@ -8,6 +8,7 @@
 #include "types.h"
 #include "HomeScreen.h"
 #include "MenuScreen.h"
+#include "GameScreen.h"
 
 
 unsigned long last_debounce_time = 0;
@@ -32,8 +33,8 @@ void handleKeyPress(char *key) {
       // SetDifficultyScreen_OnKeyPress(key)
       // break;
     case SCREEN_GAME:
-      // GameScreen_OnKeyPress(key)
-      // break;
+       GameScreen_OnKeyPress(key);
+       break;
     case SCREEN_END_GAME:
       // EndGameScreen_OnKeyPress(key)
       // break;

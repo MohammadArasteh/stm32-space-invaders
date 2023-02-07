@@ -22,12 +22,12 @@
 #include "stm32f3xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "GameBoard.h"
 #include "LiquidCrystal.h"
 #include "Utils.h"
 #include "types.h"
 #include "HomeScreen.h"
 #include "MenuScreen.h"
+#include "GameScreen.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,13 +48,11 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
 int timer_counter = 0;
-extern int board[21][4];
 extern ScreenType currentScreen;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-void render_board();
 void onEveryHalfSecond();
 void onEveryOneSecond();
 void onEveryThreeSeconds();
@@ -63,22 +61,18 @@ void onEveryFiveSeconds();
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void render_board() {
-    setCursor(0, 0);
-    for(int col = 0; col < 4; col++)
-        for(int row = 0; row < 20; row++) {
-            char* content = Utils_GetCharacter(board[row][col]);
-            print(content);
-        }
+void onEveryHalfSecond() {
+    if(currentScreen == SCREEN_GAME) {
+        GameScreen_OnEveryHalfSecond();
+    }
 }
-
-void onEveryHalfSecond() {}
 void onEveryOneSecond() {
-    update_board(0, 0);
   if (currentScreen == SCREEN_HOME) {
 //    HomeScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_MENU) {
 //    MenuScreen_OnEverySecond();
+  } else if(currentScreen == SCREEN_GAME) {
+      GameScreen_OnEverySecond();
   }
 }
 void onEveryThreeSeconds() {}
@@ -249,7 +243,6 @@ void TIM2_IRQHandler(void)
   if (timer_counter % 6 == 0) onEveryThreeSeconds(); // three seconds = 6 * half second
   if (timer_counter % 10 == 0) onEveryFiveSeconds(); // five seconds = 10 * half second
 
-  render_board();
   /* USER CODE END TIM2_IRQn 1 */
 }
 
