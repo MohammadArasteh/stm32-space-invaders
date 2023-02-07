@@ -6,6 +6,15 @@
 
 #include <stdbool.h>
 
-bool toggle(bool x) {
+bool Utils_Toggle(bool x) {
   return x == true ? false : true;
+}
+
+char* Utils_GetCharacter(int value) {
+  switch(value) {
+    case 1:
+      return "O";
+    default:
+      return "";
+  }
 }

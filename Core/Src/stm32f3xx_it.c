@@ -24,6 +24,7 @@
 /* USER CODE BEGIN Includes */
 #include "GameBoard.h"
 #include "LiquidCrystal.h"
+#include "Utils.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,7 +50,6 @@ extern int board[21][4];
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-char* getCharacter(int value);
 void render_board();
 void onEveryHalfSecond();
 void onEveryOneSecond();
@@ -59,19 +59,11 @@ void onEveryFiveSeconds();
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-char* getCharacter(int value) {
-    switch(value) {
-        case 1:
-            return "O";
-        default:
-            return "";
-    }
-}
 void render_board() {
     setCursor(0, 0);
     for(int col = 0; col < 4; col++)
         for(int row = 0; row < 20; row++) {
-            char* content = getCharacter(board[row][col]);
+            char* content = Utils_GetCharacter(board[row][col]);
             print(content);
         }
 }

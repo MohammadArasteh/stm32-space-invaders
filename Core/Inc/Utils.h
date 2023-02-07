@@ -7,6 +7,7 @@
 
 #include <stdbool.h>
 
-bool toggle(bool x);
+bool Utils_Toggle(bool x);
+char *Utils_GetCharacter(int value);
 
 #endif //SPACEINVADERS_UTILS_H

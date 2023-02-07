@@ -44,5 +44,5 @@ void updateBoard() {
 
 void HomeScreen_OnEachSecond() {
   updateBoard();
-  showRow1 = toggle(showRow1);
+  showRow1 = Utils_Toggle(showRow1);
 }
