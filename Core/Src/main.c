@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include <string.h>
 #include "LiquidCrystal.h"
+#include "Constants.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -55,11 +56,6 @@ char uart_input[50] = {0};
 int uart_input_index = 0;
 uint8_t uart_input_char[1] = {0};
 
-const int ROW1 = GPIO_PIN_11;
-const int COLUMN1 = GPIO_PIN_12;
-const int COLUMN2 = GPIO_PIN_13;
-const int COLUMN3 = GPIO_PIN_14;
-const int COLUMN4 = GPIO_PIN_15;
 unsigned long last_debounce_time = 0;
 unsigned long current_time = 0;
 /* USER CODE END PV */
@@ -189,13 +185,13 @@ int main(void)
   MX_TIM2_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  LiquidCrystal(GPIOD, GPIO_PIN_8, GPIO_PIN_9, GPIO_PIN_10, GPIO_PIN_11, GPIO_PIN_12, GPIO_PIN_13, GPIO_PIN_14);
+  LiquidCrystal(GPIOD, LCD_D1, LCD_D2, LCD_D3, LCD_D4, LCD_D5, LCD_D6, LCD_D7);
   begin(20, 4);
-  createChar(0, spaceship1);
-  createChar(1, spaceship2);
-  createChar(2, spaceship3);
+  createChar(0, (uint8_t *) spaceship1);
+  createChar(1, (uint8_t *) spaceship2);
+  createChar(2, (uint8_t *) spaceship3);
 
-  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_11, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOB, ROW1, GPIO_PIN_SET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
