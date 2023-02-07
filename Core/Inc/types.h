@@ -6,24 +6,11 @@
 #define SPACEINVADERS_TYPES_H
 
 typedef enum page {
-  INITIAL,
-  ABOUT,
-  INPUT_NAME,
-  SET_LEVEL,
-  GAME
+  PAGE_HOME,
+  PAGE_ABOUT,
+  PAGE_INPUT_NAME,
+  PAGE_SET_LEVEL,
+  PAGE_GAME
 } PageType;
-
-typedef enum level {
-  EASY,
-  NORMAL,
-  HARD
-} LevelType;
-
-typedef struct gameStatus {
-  int playerPosition;
-  int life;
-  int enemyKilled;
-  LevelType level;
-} GameStatusStruct;
 
 #endif //SPACEINVADERS_TYPES_H
