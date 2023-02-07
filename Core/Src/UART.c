@@ -3,8 +3,7 @@
 //
 
 #include <string.h>
-#include "UART.h"
-#include "stm32f3xx_hal_uart.h"
+#include "stm32f3xx.h"
 
 extern UART_HandleTypeDef huart1;
 

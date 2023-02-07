@@ -3,7 +3,7 @@
 //
 
 #include "Utils.h"
-
+#include "Constants.h"
 #include <stdbool.h>
 
 bool Utils_Toggle(bool x) {
@@ -12,8 +12,12 @@ bool Utils_Toggle(bool x) {
 
 char* Utils_GetCharacter(int value) {
   switch(value) {
-    case 1:
+    case CHAR_USER_BULLET:
       return "O";
+    case CHAR_ENEMY_BULLET:
+        return "X";
+      case CHAR_USER:
+          return "U";
     default:
       return "";
   }

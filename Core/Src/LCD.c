@@ -2,13 +2,14 @@
 // Created by SMhd3 on 2/7/2023.
 //
 
+#include "main.h"
 #include <stdint-gcc.h>
 #include "LCD.h"
 #include "LiquidCrystal.h"
 #include "stm32f303xc.h"
 #include "Constants.h"
 
-uint16_t spaceship1[] = { // enemy
+char spaceship1[] = { // enemy
         0B10000,
         0B11001,
         0B01110,
@@ -18,7 +19,7 @@ uint16_t spaceship1[] = { // enemy
         0B11001,
         0B10000
 };
-uint16_t spaceship2[] = { // enemy
+char spaceship2[] = { // enemy
         0B00011,
         0B01001,
         0B00111,
@@ -28,7 +29,7 @@ uint16_t spaceship2[] = { // enemy
         0B01001,
         0B00011
 };
-uint16_t spaceship3[] = { // player
+char spaceship3[] = { // player
         0B11001,
         0B01011,
         0B01110,
@@ -44,7 +45,8 @@ void LCD_Init() {
 
   begin(20, 4);
 
-  createChar(0, (uint8_t *) spaceship1);
-  createChar(1, (uint8_t *) spaceship2);
-  createChar(2, (uint8_t *) spaceship3);
+  createChar(0, spaceship1);
+  createChar(1, spaceship2);
+  createChar(2, spaceship3);
+
 }

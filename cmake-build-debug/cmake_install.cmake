@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders
+# Install script for directory: C:/Users/alireza/CLionProjects/SpaceInvaders
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/alireza/CLionProjects/SpaceInvaders/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -73,8 +73,9 @@ void render_board() {
 
 void onEveryHalfSecond() {}
 void onEveryOneSecond() {
+    update_board(0, 0);
   if (currentScreen == SCREEN_HOME) {
-    HomeScreen_OnEverySecond();
+//    HomeScreen_OnEverySecond();
   }
 }
 void onEveryThreeSeconds() {}
@@ -245,7 +246,6 @@ void TIM2_IRQHandler(void)
   if (timer_counter % 6 == 0) onEveryThreeSeconds(); // three seconds = 6 * half second
   if (timer_counter % 10 == 0) onEveryFiveSeconds(); // five seconds = 10 * half second
 
-  update_board(0, 0);
   render_board();
   /* USER CODE END TIM2_IRQn 1 */
 }

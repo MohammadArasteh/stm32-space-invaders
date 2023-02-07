@@ -24,6 +24,8 @@
 #include "LCD.h"
 #include "UART.h"
 #include "Keypad.h"
+#include "LiquidCrystal.h"
+#include "Constants.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -113,6 +115,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   LCD_Init();
   Keypad_Init();
+  HAL_TIM_Base_Start_IT(&htim2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -120,7 +123,6 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

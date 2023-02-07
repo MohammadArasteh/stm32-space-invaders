@@ -2,6 +2,7 @@
 // Created by SMhd3 on 2/7/2023.
 //
 
+#include "main.h"
 #include <stdbool.h>
 #include "HomeScreen.h"
 #include "Utils.h"
@@ -30,7 +31,7 @@ void updateBoard() {
   setCursor(0, 3);
   print("        ");
   if (showRow1) {
-    write(CHAR_USER);
+    write(2);
   } else {
     print(" ");
   }
@@ -38,7 +39,7 @@ void updateBoard() {
   print(" ");
 
   if (!showRow1) {
-    write(CHAR_ENEMY);
+    write(0);
   } else {
     print(" ");
   }
