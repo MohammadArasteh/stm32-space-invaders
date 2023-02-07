@@ -63,6 +63,7 @@ static void MX_USB_PCD_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+const int ROW1 = GPIO_PIN_11;
 const int COLUMN1 = GPIO_PIN_12;
 const int COLUMN2 = GPIO_PIN_13;
 const int COLUMN3 = GPIO_PIN_14;
@@ -77,16 +78,22 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
 
     switch(GPIO_Pin) {
         case COLUMN1:
-            print("1");
+            if(HAL_GPIO_ReadPin(GPIOB, COLUMN1))
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
             break;
         case COLUMN2:
-            print("2");
+            if(HAL_GPIO_ReadPin(GPIOB, COLUMN2))
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
             break;
         case COLUMN3:
-            print("3");
+            if(HAL_GPIO_ReadPin(GPIOB, COLUMN3))
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
             break;
         case COLUMN4:
-            print("A");
+            if(HAL_GPIO_ReadPin(GPIOB, COLUMN4))
+                HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_8);
+            break;
+        default:
             break;
     }
 }
@@ -126,6 +133,9 @@ int main(void)
   /* USER CODE BEGIN 2 */
   LiquidCrystal(GPIOD, GPIO_PIN_8, GPIO_PIN_9, GPIO_PIN_10, GPIO_PIN_11, GPIO_PIN_12, GPIO_PIN_13, GPIO_PIN_14);
   begin(20, 4);
+  createChar(0, spaceship1);
+  createChar(1, spaceship2);
+  createChar(2, spaceship3);
 
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_11, GPIO_PIN_SET);
   /* USER CODE END 2 */
