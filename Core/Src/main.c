@@ -24,8 +24,6 @@
 #include "LCD.h"
 #include "UART.h"
 #include "Keypad.h"
-#include "LiquidCrystal.h"
-#include "Constants.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

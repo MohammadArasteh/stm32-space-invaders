@@ -28,6 +28,7 @@
 #include "types.h"
 #include "HomeScreen.h"
 #include "MenuScreen.h"
+#include "AboutScreen.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -79,6 +80,8 @@ void onEveryOneSecond() {
 //    HomeScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_MENU) {
 //    MenuScreen_OnEverySecond();
+  } else if (currentScreen == SCREEN_ABOUT) {
+//    AboutScreen_OnEverySecond();
   }
 }
 void onEveryThreeSeconds() {}
