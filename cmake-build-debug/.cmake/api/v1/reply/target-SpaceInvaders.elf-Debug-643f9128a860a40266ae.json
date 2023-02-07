@@ -154,23 +154,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Core/Inc"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Drivers/STM32F3xx_HAL_Driver/Inc"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Drivers/CMSIS/Include"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -184,14 +184,13 @@
 			},
 			"sourceIndexes" : 
 			[
-				5,
 				6,
 				7,
 				8,
 				9,
 				10,
 				11,
-				78,
+				12,
 				79,
 				80,
 				81,
@@ -212,7 +211,8 @@
 				96,
 				97,
 				98,
-				99
+				99,
+				100
 			]
 		},
 		{
@@ -285,29 +285,29 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Core/Inc"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Drivers/STM32F3xx_HAL_Driver/Inc"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/alireza/CLionProjects/SpaceInvaders/Drivers/CMSIS/Include"
+					"path" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				12
+				13
 			]
 		}
 	],
@@ -326,7 +326,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/alireza/CLionProjects/SpaceInvaders/cmake-build-debug/SpaceInvaders.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/cmake-build-debug/SpaceInvaders.map",
 				"role" : "flags"
 			},
 			{
@@ -351,7 +351,12 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:/Users/alireza/CLionProjects/SpaceInvaders/STM32F303VCTX_FLASH.ld",
+				"fragment" : "C:/Users/SMhd3/Desktop/micro_project/stm32-space-invaders/STM32F303VCTX_FLASH.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "Core/Inc/types.h",
 				"role" : "flags"
 			}
 		],
@@ -375,10 +380,10 @@
 				2,
 				3,
 				4,
-				13,
+				5,
 				14,
 				15,
-				17,
+				16,
 				18,
 				19,
 				20,
@@ -399,7 +404,7 @@
 				35,
 				36,
 				37,
-				39,
+				38,
 				40,
 				41,
 				42,
@@ -436,21 +441,21 @@
 				73,
 				74,
 				75,
-				76
+				76,
+				77
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				5,
 				6,
 				7,
 				8,
 				9,
 				10,
 				11,
-				78,
+				12,
 				79,
 				80,
 				81,
@@ -471,18 +476,19 @@
 				96,
 				97,
 				98,
-				99
+				99,
+				100
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				12,
-				16,
-				38,
-				77,
-				100
+				13,
+				17,
+				39,
+				78,
+				101
 			]
 		}
 	],
@@ -511,6 +517,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Core/Inc/stm32f3xx_it.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/types.h",
 			"sourceGroupIndex" : 0
 		},
 		{
