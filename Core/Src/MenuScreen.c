@@ -13,7 +13,7 @@
 char *firstRowText = "Press proper key:   ";
 char *secondRowText = "1- About us         ";
 char *thirdRowText = "2- Start the game   ";
-char *emptyRow = "                    ";
+char *emptyRow2 = "                    ";
 
 extern ScreenType currentScreen;
 
@@ -28,7 +28,7 @@ void MenuScreen_OnEverySecond() {
   print(thirdRowText);
 
   setCursor(0, 3);
-  print(emptyRow);
+  print(emptyRow2);
 }
 
 void MenuScreen_OnKeyPress(char *key) {

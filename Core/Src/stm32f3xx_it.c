@@ -28,6 +28,7 @@
 #include "HomeScreen.h"
 #include "MenuScreen.h"
 #include "GameScreen.h"
+#include "AboutScreen.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -73,6 +74,8 @@ void onEveryOneSecond() {
 //    MenuScreen_OnEverySecond();
   } else if(currentScreen == SCREEN_GAME) {
       GameScreen_OnEverySecond();
+  } else if (currentScreen == SCREEN_ABOUT) {
+//    AboutScreen_OnEverySecond();
   }
 }
 void onEveryThreeSeconds() {}
@@ -232,7 +235,6 @@ void TIM2_IRQHandler(void)
   /* USER CODE BEGIN TIM2_IRQn 0 */
 
   /* USER CODE END TIM2_IRQn 0 */
-
   /* USER CODE BEGIN TIM2_IRQn 1 */
   HAL_TIM_IRQHandler(&htim2);
 
@@ -242,7 +244,6 @@ void TIM2_IRQHandler(void)
   if (timer_counter % 2 == 0) onEveryOneSecond(); // one second = 2 * half second
   if (timer_counter % 6 == 0) onEveryThreeSeconds(); // three seconds = 6 * half second
   if (timer_counter % 10 == 0) onEveryFiveSeconds(); // five seconds = 10 * half second
-
   /* USER CODE END TIM2_IRQn 1 */
 }
 

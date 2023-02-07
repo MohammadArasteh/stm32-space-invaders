@@ -8,6 +8,7 @@
 #include "types.h"
 #include "HomeScreen.h"
 #include "MenuScreen.h"
+#include "AboutScreen.h"
 #include "GameScreen.h"
 
 
@@ -24,19 +25,19 @@ void handleKeyPress(char *key) {
        MenuScreen_OnKeyPress(key);
        break;
     case SCREEN_ABOUT:
-      // AboutScreen_OnKeyPress(key)
-      // break;
+       AboutScreen_OnKeyPress();
+       break;
     case SCREEN_INPUT_NAME:
-      // InputScreen_OnKeyPress(key)
+      // InputScreen_OnKeyPress(key);
       // break;
     case SCREEN_SET_DIFFICULTY:
-      // SetDifficultyScreen_OnKeyPress(key)
+      // SetDifficultyScreen_OnKeyPress(key);
       // break;
     case SCREEN_GAME:
        GameScreen_OnKeyPress(key);
        break;
     case SCREEN_END_GAME:
-      // EndGameScreen_OnKeyPress(key)
+      // EndGameScreen_OnKeyPress(key);
       // break;
     default:
       break;
