@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\alireza\CLionProjects\SpaceInvaders
+CMAKE_SOURCE_DIR = C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debug\CMakeFiles C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\alireza\CLionProjects\SpaceInvaders\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\SMhd3\Desktop\micro_project\stm32-space-invaders\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -760,6 +760,54 @@ Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.s
 
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.obj
+
+# target to build an object file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.i
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.i
+
+# target to preprocess a source file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.i
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.i
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.s
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.s
+
+# target to generate assembly for a file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.s
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.s
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.obj
+
+# target to build an object file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.obj
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.i: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.i
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.i
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.i
+
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.s: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.s
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SpaceInvaders.elf.dir\build.make CMakeFiles/SpaceInvaders.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.s
+.PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c.s
+
 Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.obj: Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c.obj
 .PHONY : Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.obj
 
@@ -872,6 +920,12 @@ help:
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.i
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.s
+	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.obj
+	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.i
+	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.s
+	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.obj
+	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.i
+	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.s
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.obj
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.i
 	@echo ... Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.s
