@@ -29,6 +29,8 @@
 #include "MenuScreen.h"
 #include "GameScreen.h"
 #include "AboutScreen.h"
+#include "InputNameScreen.h"
+#include "SetDifficultyScreen.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -76,6 +78,10 @@ void onEveryOneSecond() {
       GameScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_ABOUT) {
 //    AboutScreen_OnEverySecond();
+  } else if (currentScreen == SCREEN_INPUT_NAME) {
+//    InputNameScreen_OnEverySecond();
+  } else if (currentScreen == SCREEN_SET_DIFFICULTY) {
+//    SetDifficultyScreen_OnEverySecond();
   }
 }
 void onEveryThreeSeconds() {}

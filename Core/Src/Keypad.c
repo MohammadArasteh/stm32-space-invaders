@@ -10,6 +10,8 @@
 #include "MenuScreen.h"
 #include "AboutScreen.h"
 #include "GameScreen.h"
+#include "InputNameScreen.h"
+#include "SetDifficultyScreen.h"
 
 
 unsigned long last_debounce_time = 0;
@@ -28,11 +30,11 @@ void handleKeyPress(char *key) {
        AboutScreen_OnKeyPress();
        break;
     case SCREEN_INPUT_NAME:
-      // InputScreen_OnKeyPress(key);
-      // break;
+       InputNameScreen_OnKeyPress();
+       break;
     case SCREEN_SET_DIFFICULTY:
-      // SetDifficultyScreen_OnKeyPress(key);
-      // break;
+       SetDifficultyScreen_OnKeyPress(key);
+       break;
     case SCREEN_GAME:
        GameScreen_OnKeyPress(key);
        break;
@@ -50,7 +52,7 @@ void Keypad_Init() {
 
 void Keypad_OnInterrupt(uint16_t GPIO_Pin) {
   current_time = HAL_GetTick();
-  if (current_time - last_debounce_time < 500) return;
+  if (current_time - last_debounce_time < 200) return;
   last_debounce_time = current_time;
 
   switch(GPIO_Pin) {
