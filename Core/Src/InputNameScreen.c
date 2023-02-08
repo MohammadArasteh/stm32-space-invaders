@@ -2,6 +2,7 @@
 // Created by SMhd3 on 2/8/2023.
 //
 
+#include "main.h"
 #include <stdio.h>
 #include <stdbool.h>
 #include "InputNameScreen.h"

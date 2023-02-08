@@ -35,6 +35,7 @@
 
 // characters
 #define CHAR_USER 3
+#define CHAR_DEAD_USER 2
 #define CHAR_USER_BULLET 1
 #define CHAR_ENEMY (-3)
 #define CHAR_DEAD_ENEMY (-2)

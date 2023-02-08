@@ -8,7 +8,6 @@
 #include <stdbool.h>
 
 bool Utils_Toggle(bool x);
-char *Utils_GetCharacter(int value);
 
 bool Utils_IsStringOne(char *key);
 bool Utils_IsStringTwo(char *key);

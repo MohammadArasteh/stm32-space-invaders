@@ -31,6 +31,7 @@
 #include "AboutScreen.h"
 #include "InputNameScreen.h"
 #include "SetDifficultyScreen.h"
+#include "UART.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -71,21 +72,29 @@ void onEveryHalfSecond() {
 }
 void onEveryOneSecond() {
   if (currentScreen == SCREEN_HOME) {
-//    HomeScreen_OnEverySecond();
+    HomeScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_MENU) {
-//    MenuScreen_OnEverySecond();
+    MenuScreen_OnEverySecond();
   } else if(currentScreen == SCREEN_GAME) {
       GameScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_ABOUT) {
-//    AboutScreen_OnEverySecond();
+    AboutScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_INPUT_NAME) {
-//    InputNameScreen_OnEverySecond();
+    InputNameScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_SET_DIFFICULTY) {
-//    SetDifficultyScreen_OnEverySecond();
+    SetDifficultyScreen_OnEverySecond();
   }
 }
-void onEveryThreeSeconds() {}
-void onEveryFiveSeconds() {}
+void onEveryThreeSeconds() {
+    if(currentScreen == SCREEN_GAME) {
+        GameScreen_OnEveryThreeSeconds();
+    }
+}
+void onEveryFiveSeconds() {
+    if(currentScreen == SCREEN_GAME) {
+        GameScreen_OnEveryFiveSeconds();
+    }
+}
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -247,10 +256,10 @@ void TIM2_IRQHandler(void)
 
   timer_counter++;
 
-  onEveryHalfSecond();
-  if (timer_counter % 2 == 0) onEveryOneSecond(); // one second = 2 * half second
-  if (timer_counter % 6 == 0) onEveryThreeSeconds(); // three seconds = 6 * half second
-  if (timer_counter % 10 == 0) onEveryFiveSeconds(); // five seconds = 10 * half second
+    if (timer_counter % 10 == 0) onEveryFiveSeconds(); // five seconds = 10 * half second
+    if (timer_counter % 6 == 0) onEveryThreeSeconds(); // three seconds = 6 * half second
+    if (timer_counter % 2 == 0) onEveryOneSecond(); // one second = 2 * half second
+    onEveryHalfSecond();
   /* USER CODE END TIM2_IRQn 1 */
 }
 

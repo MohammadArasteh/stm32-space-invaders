@@ -7,11 +7,13 @@
 
 void GameScreen_OnEveryHalfSecond();
 void GameScreen_OnEverySecond();
+void GameScreen_OnEveryThreeSeconds();
+void GameScreen_OnEveryFiveSeconds();
 void GameScreen_OnKeyPress(char* key);
 
 void shift_down();
-void generate_enemy();
 int getPlayerColumn();
+void enemy_shot();
 
 // controlling functions
 void left();

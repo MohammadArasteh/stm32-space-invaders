@@ -55,7 +55,7 @@ UART_HandleTypeDef huart1;
 PCD_HandleTypeDef hpcd_USB_FS;
 
 /* USER CODE BEGIN PV */
-
+extern uint8_t uart_input_char[1];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -120,6 +120,7 @@ int main(void)
   Keypad_Init();
   RTC_Init();
   HAL_TIM_Base_Start_IT(&htim2);
+  HAL_UART_Receive_IT(&huart1, uart_input_char, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */

@@ -40,6 +40,28 @@ char spaceship3[] = { // player
         0B11001
 };
 
+char enemy_bullet[] = {
+        0B00010,
+        0B00100,
+        0B01100,
+        0B11111,
+        0B11111,
+        0B01100,
+        0B00100,
+        0B00010
+};
+
+char player_bullet[] = {
+        0B01000,
+        0B00100,
+        0B00110,
+        0B11111,
+        0B11111,
+        0B00110,
+        0B00100,
+        0B01000
+};
+
 void LCD_Init() {
   LiquidCrystal(GPIOD, LCD_D1, LCD_D2, LCD_D3, LCD_D4, LCD_D5, LCD_D6, LCD_D7);
 
@@ -48,5 +70,6 @@ void LCD_Init() {
   createChar(0, spaceship1);
   createChar(1, spaceship2);
   createChar(2, spaceship3);
-
+  createChar(3, enemy_bullet);
+  createChar(4, player_bullet);
 }
