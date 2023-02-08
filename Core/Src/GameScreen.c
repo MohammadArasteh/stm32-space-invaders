@@ -11,6 +11,7 @@
 #include "LiquidCrystal.h"
 #include "Constants.h"
 #include "types.h"
+#include "UART.h"
 
 int getFirstEnemyRow(int col);
 
@@ -26,8 +27,16 @@ void updateGameScreen() {
             if(board[row][col] == CHAR_DEAD_ENEMY) {
                 board[row][col] = BOARD_EMPTY_CELL;
                 board[BOARD_STATUS_ROW][BOARD_ENEMY_COUNT_COL]--;
+                if(board[BOARD_STATUS_ROW][BOARD_ENEMY_COUNT_COL] == 3) {
+                    printUART("############\n");
+                    printUART("GOOD JOB! Only 3 enemies left...\n");
+                    printUART("############\n");
+                }
                 if(board[BOARD_STATUS_ROW][BOARD_ENEMY_COUNT_COL] == 0) {
                     // TODO go to win screen
+                    printUART("************\n");
+                    printUART("You WON!\n");
+                    printUART("************\n");
                 }
             }
             if(board[row][col] == CHAR_DEAD_USER) {
@@ -35,8 +44,16 @@ void updateGameScreen() {
                     board[BOARD_STATUS_ROW][BOARD_USER_HP_COL]--;
                     board[row][col] = CHAR_USER;
                 }
+                if(board[BOARD_STATUS_ROW][BOARD_USER_HP_COL] == 1) {
+                    printUART("############\n");
+                    printUART("WARNING: Only one HP remained!\n");
+                    printUART("############\n");
+                }
                 if(board[BOARD_STATUS_ROW][BOARD_USER_HP_COL] == 0) {
                     // TODO go to lost screen
+                    printUART("************\n");
+                    printUART("you LOST!\n");
+                    printUART("************\n");
                 }
             }
             if(board[row][col] == CHAR_USER || board[row][col] == CHAR_DEAD_USER)
