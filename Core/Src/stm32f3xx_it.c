@@ -32,6 +32,8 @@
 #include "InputNameScreen.h"
 #include "SetDifficultyScreen.h"
 #include "UART.h"
+#include "EndGameWinScreen.h"
+#include "EndGameLostScreen.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -83,6 +85,10 @@ void onEveryOneSecond() {
     InputNameScreen_OnEverySecond();
   } else if (currentScreen == SCREEN_SET_DIFFICULTY) {
     SetDifficultyScreen_OnEverySecond();
+  } else if (currentScreen == SCREEN_END_GAME_WIN) {
+    EndGameWinScreen_OnEverySecond();
+  } else if (currentScreen == SCREEN_END_GAME_LOST) {
+    EndGameLostScreen_OnEverySecond();
   }
 }
 void onEveryThreeSeconds() {

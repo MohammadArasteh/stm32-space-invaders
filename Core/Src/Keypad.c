@@ -12,6 +12,8 @@
 #include "GameScreen.h"
 #include "InputNameScreen.h"
 #include "SetDifficultyScreen.h"
+#include "EndGameWinScreen.h"
+#include "EndGameLostScreen.h"
 
 
 unsigned long last_debounce_time = 0;
@@ -38,9 +40,12 @@ void handleKeyPress(char *key) {
     case SCREEN_GAME:
        GameScreen_OnKeyPress(key);
        break;
-    case SCREEN_END_GAME:
-      // EndGameScreen_OnKeyPress(key);
-      // break;
+    case SCREEN_END_GAME_WIN:
+       EndGameWinScreen_OnKeyPress();
+       break;
+    case SCREEN_END_GAME_LOST:
+       EndGameLostScreen_OnKeyPress();
+       break;
     default:
       break;
   }
