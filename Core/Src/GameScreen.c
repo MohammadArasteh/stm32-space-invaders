@@ -169,5 +169,5 @@ void GameScreen_OnEveryThreeSeconds() {
 }
 void GameScreen_OnEveryFiveSeconds() {
     enemy_shot();
-//    if(board[BOARD_STATUS_ROW][BOARD_DIFFICULTY_COL] == DIFFICULTY_EASY) shift_down();
+    if(board[BOARD_STATUS_ROW][BOARD_DIFFICULTY_COL] == DIFFICULTY_EASY) shift_down();
 }
