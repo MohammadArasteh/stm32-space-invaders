@@ -32,3 +32,7 @@ void UART_OnCallback() {
   }
   HAL_UART_Receive_IT(&huart1, uart_input_char, 1);
 }
+
+void UART_Init() {
+    HAL_UART_Receive_IT(&huart1, uart_input_char, 1);
+}

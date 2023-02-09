@@ -5,5 +5,5 @@
 #include <stddef.h>
 #include "types.h"
 
-ScreenType currentScreen = SCREEN_SET_DIFFICULTY;
+ScreenType currentScreen = SCREEN_HOME;
 char *username = NULL;

@@ -9,5 +9,6 @@
 
 void printUART(char *string);
 void UART_OnCallback();
+void UART_Init();
 
 #endif //SPACEINVADERS_UART_H
