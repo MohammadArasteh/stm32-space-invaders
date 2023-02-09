@@ -17,7 +17,7 @@ int getFirstEnemyRow(int col);
 
 extern int board[21][4];
 extern int enemy_moves[100][4];
-extern bool alarm;
+extern ScreenType currentScreen;
 int enemy_current_wave = 0;
 
 void updateGameScreen() {
@@ -26,7 +26,6 @@ void updateGameScreen() {
         setCursor(0, col);
         for(int row = 0; row < 20; row++) {
             if(board[row][col] == CHAR_DEAD_ENEMY) {
-                alarm = true;
                 board[row][col] = BOARD_EMPTY_CELL;
                 board[BOARD_STATUS_ROW][BOARD_ENEMY_COUNT_COL]--;
                 if(board[BOARD_STATUS_ROW][BOARD_ENEMY_COUNT_COL] == 3) {
@@ -35,14 +34,13 @@ void updateGameScreen() {
                     printUART("############\n");
                 }
                 if(board[BOARD_STATUS_ROW][BOARD_ENEMY_COUNT_COL] == 0) {
-                    // TODO go to win screen
+                    currentScreen = SCREEN_END_GAME_WIN;
                     printUART("************\n");
                     printUART("You WON!\n");
                     printUART("************\n");
                 }
             }
             if(board[row][col] == CHAR_DEAD_USER) {
-                alarm = true;
                 if(board[BOARD_STATUS_ROW][BOARD_USER_HP_COL] > 0) {
                     board[BOARD_STATUS_ROW][BOARD_USER_HP_COL]--;
                     board[row][col] = CHAR_USER;
@@ -53,7 +51,7 @@ void updateGameScreen() {
                     printUART("############\n");
                 }
                 if(board[BOARD_STATUS_ROW][BOARD_USER_HP_COL] == 0) {
-                    // TODO go to lost screen
+                    currentScreen = SCREEN_END_GAME_LOST;
                     printUART("************\n");
                     printUART("you LOST!\n");
                     printUART("************\n");
