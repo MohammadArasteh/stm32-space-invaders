@@ -53,6 +53,10 @@
 #define BOARD_ENEMY_COUNT_COL 1
 #define BOARD_DIFFICULTY_COL 2
 #define BOARD_FINISHED_COL 3
+
+// macros
+#define ARRAY_LENGTH(arr) (sizeof(arr) / sizeof((arr)[0]))
+
 /* Status Row: [UserHp, EnemyCount, Difficulty, isFinished] */
 
 

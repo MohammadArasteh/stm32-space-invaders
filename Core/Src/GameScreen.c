@@ -12,12 +12,17 @@
 #include "Constants.h"
 #include "types.h"
 #include "UART.h"
+#include "Buzzer.h"
 
 int getFirstEnemyRow(int col);
 
 extern int board[21][4];
 extern int enemy_moves[100][4];
 extern ScreenType currentScreen;
+extern Tone user_target[];
+extern Tone enemy_target[];
+extern Tone user_shoot[];
+extern Tone enemy_shoot[];
 int enemy_current_wave = 0;
 
 void updateGameScreen() {
@@ -39,6 +44,7 @@ void updateGameScreen() {
                     printUART("You WON!\n");
                     printUART("************\n");
                 }
+                Change_Melody(enemy_target, 3);
             }
             if(board[row][col] == CHAR_DEAD_USER) {
                 if(board[BOARD_STATUS_ROW][BOARD_USER_HP_COL] > 0) {
@@ -56,6 +62,7 @@ void updateGameScreen() {
                     printUART("you LOST!\n");
                     printUART("************\n");
                 }
+                Change_Melody(user_target, 3);
             }
             if(board[row][col] == CHAR_USER || board[row][col] == CHAR_DEAD_USER)
                 write(2);
@@ -102,8 +109,11 @@ void shift_down() {
         for(int col = 0; col < 4; col++) {
             int cellContent = board[row][col];
             if(cellContent == CHAR_ENEMY) {
-                if(row != 0 && board[row - 1][col] != CHAR_USER)
+                if(row != 0 && board[row - 1][col] != CHAR_USER) {
+                    if(board[row - 1][col] == CHAR_ENEMY_BULLET)
+                        board[row - 2][col] = CHAR_ENEMY_BULLET;
                     board[row - 1][col] = cellContent;
+                }
                 board[row][col] = BOARD_EMPTY_CELL;
             }
         }
@@ -131,6 +141,7 @@ void right() {
     board[0][currentCol] = BOARD_EMPTY_CELL;
 }
 void shoot() {
+    Change_Melody(user_shoot, 2);
     int currentCol = getPlayerColumn();
     board[1][currentCol] = CHAR_USER_BULLET;
 }

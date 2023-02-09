@@ -9,9 +9,11 @@
 #include "Constants.h"
 #include "types.h"
 #include "UART.h"
+#include "Buzzer.h"
 
 extern int board[20 + 1][4];
 extern ScreenType currentScreen;
+extern Tone mute[];
 
 void SetDifficultyScreen_OnEverySecond() {
   setCursor(0, 0);
@@ -58,5 +60,6 @@ void SetDifficultyScreen_OnKeyPress(char *key) {
           break;
   }
 
+  Change_Melody(mute, 1);
   currentScreen = SCREEN_GAME;
 }

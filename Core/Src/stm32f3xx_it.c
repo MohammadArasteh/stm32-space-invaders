@@ -34,6 +34,7 @@
 #include "UART.h"
 #include "EndGameWinScreen.h"
 #include "EndGameLostScreen.h"
+#include "Buzzer.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -70,26 +71,6 @@ void onEveryFiveSeconds();
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void PWM_Change_Tone(uint16_t pwm_freq, uint16_t volume) // pwm_freq (1 - 20000), volume (0 - 1000)
-{
-    if (pwm_freq == 0 || pwm_freq > 20000)
-    {
-        __HAL_TIM_SET_COMPARE(&htim8, TIM_CHANNEL_3, 0);
-    }
-    else
-    {
-        const uint32_t internal_clock_freq = HAL_RCC_GetSysClockFreq();
-        const uint16_t prescaler = 1 + internal_clock_freq / pwm_freq / 60000;
-        const uint32_t timer_clock = internal_clock_freq / prescaler;
-        const uint32_t period_cycles = timer_clock / pwm_freq;
-        const uint32_t pulse_width = volume * period_cycles / 1000 / 2;
-
-        (&htim8)->Instance->PSC = prescaler - 1;
-        (&htim8)->Instance->ARR = period_cycles - 1;
-        (&htim8)->Instance->EGR = TIM_EGR_UG;
-        __HAL_TIM_SET_COMPARE(&htim8, TIM_CHANNEL_3, pulse_width); // pwm_timer->Instance->CCR2 = pulse_width;
-    }
-}
 void onEveryHalfSecond() {
     if(currentScreen == SCREEN_GAME) {
         GameScreen_OnEveryHalfSecond();
@@ -270,7 +251,7 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-
+  Update_Melody();
   /* USER CODE END SysTick_IRQn 1 */
 }
 
